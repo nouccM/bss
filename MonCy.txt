@@ -2258,12 +2258,6 @@ if item == false then
       Event:FireServer(A)
       local A = {
 
-            ["Name"] = "Enzymes"
-      }
-      local Event = game:GetService("ReplicatedStorage").Events.PlayerActivesCommand
-      Event:FireServer(A)
-      local A = {
-
             ["Name"] = "Tropical Drink"
       }
       local Event = game:GetService("ReplicatedStorage").Events.PlayerActivesCommand
@@ -2274,12 +2268,6 @@ if item == false then
             local A = {
 
             ["Name"] = "Blue Extract"
-      }
-      local Event = game:GetService("ReplicatedStorage").Events.PlayerActivesCommand
-      Event:FireServer(A)
-      local A = {
-
-            ["Name"] = "Enzymes"
       }
       local Event = game:GetService("ReplicatedStorage").Events.PlayerActivesCommand
       Event:FireServer(A)
