@@ -140,7 +140,7 @@ DarkCyberMainGUI.Parent = game.CoreGui
 
 MiniPage.Name = "MiniPage"
 MiniPage.Parent = DarkCyberMainGUI
-MiniPage.BackgroundColor3 = Color3.new(0.321569, 0.462745, 1)
+MiniPage.BackgroundColor3 = Color3.new(211, 211, 211)
 MiniPage.BorderSizePixel = 0
 MiniPage.Position = UDim2.new(0.361979187, 0, -0.7, 0)
 MiniPage.Size = UDim2.new(0, 530, 0, 25)
@@ -183,7 +183,7 @@ VersionText.BackgroundTransparency = 1
 VersionText.Position = UDim2.new(-0.00158959627, 0, 0.914668798, 0)
 VersionText.Size = UDim2.new(0.213481352, 0, 0.08324752, 0)
 VersionText.Font = Enum.Font.GothamBold
-VersionText.Text = "Version: 1.0.0"
+VersionText.Text = "Wersja 2.1.3.7"
 VersionText.TextColor3 = Color3.new(1, 1, 1)
 VersionText.TextSize = 16
 
@@ -200,7 +200,7 @@ ImageGang.Parent = HomePage
 ImageGang.BackgroundColor3 = Color3.new(1, 1, 1)
 ImageGang.Position = UDim2.new(0.0295857992, 0, 0.0601093024, 0)
 ImageGang.Size = UDim2.new(0, 70, 0, 70)
-ImageGang.Image = "http://www.roblox.com/asset/?id=3766691866"
+ImageGang.Image = "https://i.pinimg.com/originals/f4/40/8a/f4408ae59bc76f809d049fcc92cbea80.jpg"
 
 CreditText.Name = "CreditText"
 CreditText.Parent = HomePage
@@ -209,7 +209,7 @@ CreditText.BackgroundTransparency = 1
 CreditText.Position = UDim2.new(0.188195452, 0, 0.0601093657, 0)
 CreditText.Size = UDim2.new(0.809829473, 0, 0.382513672, 0)
 CreditText.Font = Enum.Font.GothamBold
-CreditText.Text = "Gui Create : DarkCyber"
+CreditText.Text = "Przerobione przez Moncy"
 CreditText.TextColor3 = Color3.new(1, 1, 1)
 CreditText.TextSize = 20
 
@@ -220,7 +220,7 @@ JoinText.BackgroundTransparency = 1
 JoinText.Position = UDim2.new(0, 0, 0.453551859, 0)
 JoinText.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 JoinText.Font = Enum.Font.GothamBold
-JoinText.Text = "Join Discord for more Update"
+JoinText.Text = "Zoba to"
 JoinText.TextColor3 = Color3.new(1, 1, 1)
 JoinText.TextSize = 17
 
@@ -231,7 +231,7 @@ DiscordlinkTest.BackgroundTransparency = 1
 DiscordlinkTest.Position = UDim2.new(0, 0, 0.601092875, 0)
 DiscordlinkTest.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 DiscordlinkTest.Font = Enum.Font.GothamBold
-DiscordlinkTest.Text = "Link: https://discord.gg/yXNjfMa"
+DiscordlinkTest.Text = "Kliknij https://www.youtube.com/watch?v=EndqWcuOzF4"
 DiscordlinkTest.TextColor3 = Color3.new(1, 1, 1)
 DiscordlinkTest.TextSize = 17
 
@@ -242,7 +242,7 @@ Copylinkdiscord.BorderSizePixel = 0
 Copylinkdiscord.Position = UDim2.new(0.0295858085, 0, 0.79781419, 0)
 Copylinkdiscord.Size = UDim2.new(0.476331353, 0, 0.131147563, 0)
 Copylinkdiscord.Font = Enum.Font.GothamBold
-Copylinkdiscord.Text = "COPY LINK DISCORD"
+Copylinkdiscord.Text = "Odpal"
 Copylinkdiscord.TextColor3 = Color3.new(1, 1, 1)
 Copylinkdiscord.TextSize = 14
 
@@ -256,7 +256,7 @@ FarmingPage.Visible = false
 
 FieldSelectPage.Name = "FieldSelectPage"
 FieldSelectPage.Parent = FarmingPage
-FieldSelectPage.BackgroundColor3 = Color3.new(0.482353, 0.447059, 1)
+FieldSelectPage.BackgroundColor3 = Color3.new(180, 180, 180, 0.5)
 FieldSelectPage.BorderSizePixel = 0
 FieldSelectPage.Position = UDim2.new(0.0228317082, 0, 0.16433613, 0)
 FieldSelectPage.Size = UDim2.new(0.400000006, 0, 0.835663855, 0)
@@ -264,128 +264,128 @@ FieldSelectPage.ScrollBarThickness = 5
 
 SunflowerButton.Name = "SunflowerButton"
 SunflowerButton.Parent = FieldSelectPage
-SunflowerButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+SunflowerButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 SunflowerButton.BorderSizePixel = 0
 SunflowerButton.Position = UDim2.new(0.108427808, 0, 0.0228219759, 0)
 SunflowerButton.Size = UDim2.new(0, 160, 0, 20)
 SunflowerButton.Font = Enum.Font.GothamBold
-SunflowerButton.Text = "Sunflower Field"
+SunflowerButton.Text = "Sunflower"
 SunflowerButton.TextColor3 = Color3.new(1, 1, 1)
 SunflowerButton.TextSize = 14
 
 MushroomButton.Name = "MushroomButton"
 MushroomButton.Parent = FieldSelectPage
-MushroomButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+MushroomButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 MushroomButton.BorderSizePixel = 0
 MushroomButton.Position = UDim2.new(0.108427808, 0, 0.0791205987, 0)
 MushroomButton.Size = UDim2.new(0, 160, 0, 20)
 MushroomButton.Font = Enum.Font.GothamBold
-MushroomButton.Text = "Mushroom Field"
+MushroomButton.Text = "Mushroom "
 MushroomButton.TextColor3 = Color3.new(1, 1, 1)
 MushroomButton.TextSize = 14
 
 SpiderButton.Name = "SpiderButton"
 SpiderButton.Parent = FieldSelectPage
-SpiderButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+SpiderButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 SpiderButton.BorderSizePixel = 0
 SpiderButton.Position = UDim2.new(0.108427808, 0, 0.412541032, 0)
 SpiderButton.Size = UDim2.new(0, 160, 0, 20)
 SpiderButton.Font = Enum.Font.GothamBold
-SpiderButton.Text = "Spider Field"
+SpiderButton.Text = "Spider "
 SpiderButton.TextColor3 = Color3.new(1, 1, 1)
 SpiderButton.TextSize = 14
 
 BambooButton.Name = "BambooButton"
 BambooButton.Parent = FieldSelectPage
-BambooButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+BambooButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 BambooButton.BorderSizePixel = 0
 BambooButton.Position = UDim2.new(0.108427808, 0, 0.355216533, 0)
 BambooButton.Size = UDim2.new(0, 160, 0, 20)
 BambooButton.Font = Enum.Font.GothamBold
-BambooButton.Text = "Bamboo Field"
+BambooButton.Text = "Bamboo "
 BambooButton.TextColor3 = Color3.new(1, 1, 1)
 BambooButton.TextSize = 14
 
 RoseButton.Name = "RoseButton"
 RoseButton.Parent = FieldSelectPage
-RoseButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+RoseButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 RoseButton.BorderSizePixel = 0
 RoseButton.Position = UDim2.new(0.108427808, 0, 0.524258256, 0)
 RoseButton.Size = UDim2.new(0, 160, 0, 20)
 RoseButton.Font = Enum.Font.GothamBold
-RoseButton.Text = "Rose Field"
+RoseButton.Text = "Rose "
 RoseButton.TextColor3 = Color3.new(1, 1, 1)
 RoseButton.TextSize = 14
 
 PineTreeButton.Name = "PineTreeButton"
 PineTreeButton.Parent = FieldSelectPage
-PineTreeButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+PineTreeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 PineTreeButton.BorderSizePixel = 0
 PineTreeButton.Position = UDim2.new(0.108427808, 0, 0.467443049, 0)
 PineTreeButton.Size = UDim2.new(0, 160, 0, 20)
 PineTreeButton.Font = Enum.Font.GothamBold
-PineTreeButton.Text = "Pine Tree Field"
+PineTreeButton.Text = "Pine Tree"
 PineTreeButton.TextColor3 = Color3.new(1, 1, 1)
 PineTreeButton.TextSize = 14
 
 CactusButton.Name = "CactusButton"
 CactusButton.Parent = FieldSelectPage
-CactusButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+CactusButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 CactusButton.BorderSizePixel = 0
 CactusButton.Position = UDim2.new(0.108427808, 0, 0.579347968, 0)
 CactusButton.Size = UDim2.new(0, 160, 0, 20)
 CactusButton.Font = Enum.Font.GothamBold
-CactusButton.Text = "Cactus Field"
+CactusButton.Text = "Cactus "
 CactusButton.TextColor3 = Color3.new(1, 1, 1)
 CactusButton.TextSize = 14
 
 PumpkinButton.Name = "PumpkinButton"
 PumpkinButton.Parent = FieldSelectPage
-PumpkinButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+PumpkinButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 PumpkinButton.BorderSizePixel = 0
 PumpkinButton.Position = UDim2.new(0.108427808, 0, 0.633908749, 0)
 PumpkinButton.Size = UDim2.new(0, 160, 0, 20)
 PumpkinButton.Font = Enum.Font.GothamBold
-PumpkinButton.Text = "Pumpkin Field"
+PumpkinButton.Text = "Pumpkin "
 PumpkinButton.TextColor3 = Color3.new(1, 1, 1)
 PumpkinButton.TextSize = 14
 
 PineappleButton.Name = "PineappleButton"
 PineappleButton.Parent = FieldSelectPage
-PineappleButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+PineappleButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 PineappleButton.BorderSizePixel = 0
 PineappleButton.Position = UDim2.new(0.108427808, 0, 0.688469529, 0)
 PineappleButton.Size = UDim2.new(0, 160, 0, 20)
 PineappleButton.Font = Enum.Font.GothamBold
-PineappleButton.Text = "Pineapple Field"
+PineappleButton.Text = "Pineapple "
 PineappleButton.TextColor3 = Color3.new(1, 1, 1)
 PineappleButton.TextSize = 14
 
 StumpButton.Name = "StumpButton"
 StumpButton.Parent = FieldSelectPage
-StumpButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+StumpButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 StumpButton.BorderSizePixel = 0
 StumpButton.Position = UDim2.new(0.108427808, 0, 0.74303031, 0)
 StumpButton.Size = UDim2.new(0, 160, 0, 20)
 StumpButton.Font = Enum.Font.GothamBold
-StumpButton.Text = "Stump Field"
+StumpButton.Text = "Stump"
 StumpButton.TextColor3 = Color3.new(1, 1, 1)
 StumpButton.TextSize = 14
 
 MountainTopButton.Name = "MountainTopButton"
 MountainTopButton.Parent = FieldSelectPage
-MountainTopButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+MountainTopButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 MountainTopButton.BorderSizePixel = 0
 MountainTopButton.Position = UDim2.new(0.108427808, 0, 0.797487676, 0)
 MountainTopButton.Size = UDim2.new(0, 160, 0, 20)
 MountainTopButton.Font = Enum.Font.GothamBold
-MountainTopButton.Text = "Mountain Top Field"
+MountainTopButton.Text = "Mountain "
 MountainTopButton.TextColor3 = Color3.new(1, 1, 1)
 MountainTopButton.TextSize = 14
 
 CoconutButton.Name = "CoconutButton"
 CoconutButton.Parent = FieldSelectPage
-CoconutButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+CoconutButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 CoconutButton.BorderSizePixel = 0
 CoconutButton.Position = UDim2.new(0.108427808, 0, 0.852136731, 0)
 CoconutButton.Size = UDim2.new(0, 160, 0, 20)
@@ -396,56 +396,56 @@ CoconutButton.TextSize = 14
 
 PepperButton.Name = "PepperButton"
 PepperButton.Parent = FieldSelectPage
-PepperButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+PepperButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 PepperButton.BorderSizePixel = 0
 PepperButton.Position = UDim2.new(0.108427808, 0, 0.908951104, 0)
 PepperButton.Size = UDim2.new(0, 160, 0, 20)
 PepperButton.Font = Enum.Font.GothamBold
-PepperButton.Text = "Pepper Field"
+PepperButton.Text = "Pepper "
 PepperButton.TextColor3 = Color3.new(1, 1, 1)
 PepperButton.TextSize = 14
 
 StawberryButton.Name = "StawberryButton"
 StawberryButton.Parent = FieldSelectPage
-StawberryButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+StawberryButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 StawberryButton.BorderSizePixel = 0
 StawberryButton.Position = UDim2.new(0.108427808, 0, 0.300172061, 0)
 StawberryButton.Size = UDim2.new(0, 160, 0, 20)
 StawberryButton.Font = Enum.Font.GothamBold
-StawberryButton.Text = "Strawberry Field"
+StawberryButton.Text = "Strawberry"
 StawberryButton.TextColor3 = Color3.new(1, 1, 1)
 StawberryButton.TextSize = 14
 
 BlueflowerButton.Name = "BlueflowerButton"
 BlueflowerButton.Parent = FieldSelectPage
-BlueflowerButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+BlueflowerButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 BlueflowerButton.BorderSizePixel = 0
 BlueflowerButton.Position = UDim2.new(0.108427808, 0, 0.135357112, 0)
 BlueflowerButton.Size = UDim2.new(0, 160, 0, 20)
 BlueflowerButton.Font = Enum.Font.GothamBold
-BlueflowerButton.Text = "Blue Folower Field"
+BlueflowerButton.Text = "Blue Folower "
 BlueflowerButton.TextColor3 = Color3.new(1, 1, 1)
 BlueflowerButton.TextSize = 14
 
 DanrButton.Name = "DanrButton"
 DanrButton.Parent = FieldSelectPage
-DanrButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+DanrButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 DanrButton.BorderSizePixel = 0
 DanrButton.Position = UDim2.new(0.108427808, 0, 0.189853355, 0)
 DanrButton.Size = UDim2.new(0, 160, 0, 20)
 DanrButton.Font = Enum.Font.GothamBold
-DanrButton.Text = "Dandelion Field"
+DanrButton.Text = "Dandelion
 DanrButton.TextColor3 = Color3.new(1, 1, 1)
 DanrButton.TextSize = 14
 
 DanrButton_2.Name = "DanrButton"
 DanrButton_2.Parent = FieldSelectPage
-DanrButton_2.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+DanrButton_2.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 DanrButton_2.BorderSizePixel = 0
 DanrButton_2.Position = UDim2.new(0.108427808, 0, 0.244349569, 0)
 DanrButton_2.Size = UDim2.new(0, 160, 0, 20)
 DanrButton_2.Font = Enum.Font.GothamBold
-DanrButton_2.Text = "Clover Field"
+DanrButton_2.Text = "Clover "
 DanrButton_2.TextColor3 = Color3.new(1, 1, 1)
 DanrButton_2.TextSize = 14
 
@@ -462,7 +462,7 @@ FieldSelectText.TextSize = 16
 
 FieldText.Name = "FieldText"
 FieldText.Parent = FarmingPage
-FieldText.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+FieldText.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 FieldText.BorderSizePixel = 0
 FieldText.Position = UDim2.new(0.446999997, 0, 0.170000002, 0)
 FieldText.Size = UDim2.new(0.530130506, 0, 0.100000001, 0)
@@ -474,7 +474,7 @@ FieldText.TextXAlignment = Enum.TextXAlignment.Left
 
 StartButton.Name = "StartButton"
 StartButton.Parent = FarmingPage
-StartButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+StartButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 StartButton.BorderSizePixel = 0
 StartButton.Position = UDim2.new(0.446999997, 0, 0.300000012, 0)
 StartButton.Size = UDim2.new(0.530328393, 0, 0.100000001, 0)
@@ -506,194 +506,194 @@ WaypointPage.ScrollBarThickness = 5
 
 Suntp.Name = "Suntp"
 Suntp.Parent = WaypointPage
-Suntp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Suntp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Suntp.BorderSizePixel = 0
 Suntp.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 Suntp.Size = UDim2.new(0, 120, 0, 20)
 Suntp.Font = Enum.Font.GothamBold
-Suntp.Text = "Sunflower Field"
+Suntp.Text = "Sunflower"
 Suntp.TextColor3 = Color3.new(1, 1, 1)
 Suntp.TextSize = 14
 
 Mushtp.Name = "Mushtp"
 Mushtp.Parent = WaypointPage
-Mushtp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Mushtp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Mushtp.BorderSizePixel = 0
 Mushtp.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
 Mushtp.Size = UDim2.new(0, 120, 0, 20)
 Mushtp.Font = Enum.Font.GothamBold
-Mushtp.Text = "Mushroom Field"
+Mushtp.Text = "Mushroom "
 Mushtp.TextColor3 = Color3.new(1, 1, 1)
 Mushtp.TextSize = 14
 
 Dantp.Name = "Dantp"
 Dantp.Parent = WaypointPage
-Dantp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Dantp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Dantp.BorderSizePixel = 0
 Dantp.Position = UDim2.new(0.510999978, 0, 0.0199999996, 0)
 Dantp.Size = UDim2.new(0, 120, 0, 20)
 Dantp.Font = Enum.Font.GothamBold
-Dantp.Text = "Dandelion Field"
+Dantp.Text = "Dandelion"
 Dantp.TextColor3 = Color3.new(1, 1, 1)
 Dantp.TextSize = 14
 
 Blueftp.Name = "Blueftp"
 Blueftp.Parent = WaypointPage
-Blueftp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Blueftp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Blueftp.BorderSizePixel = 0
 Blueftp.Position = UDim2.new(0.755999982, 0, 0.0199999996, 0)
 Blueftp.Size = UDim2.new(0, 120, 0, 20)
 Blueftp.Font = Enum.Font.GothamBold
-Blueftp.Text = "Blueflower Field"
+Blueftp.Text = "Blueflower"
 Blueftp.TextColor3 = Color3.new(1, 1, 1)
 Blueftp.TextSize = 14
 
 Clovertp.Name = "Clovertp"
 Clovertp.Parent = WaypointPage
-Clovertp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Clovertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Clovertp.BorderSizePixel = 0
 Clovertp.Position = UDim2.new(0.0160000008, 0, 0.0599999987, 0)
 Clovertp.Size = UDim2.new(0, 120, 0, 20)
 Clovertp.Font = Enum.Font.GothamBold
-Clovertp.Text = "Clover Field"
+Clovertp.Text = "Clover "
 Clovertp.TextColor3 = Color3.new(1, 1, 1)
 Clovertp.TextSize = 14
 
 Bambootp.Name = "Bambootp"
 Bambootp.Parent = WaypointPage
-Bambootp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Bambootp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Bambootp.BorderSizePixel = 0
 Bambootp.Position = UDim2.new(0.261000007, 0, 0.0599999987, 0)
 Bambootp.Size = UDim2.new(0, 120, 0, 20)
 Bambootp.Font = Enum.Font.GothamBold
-Bambootp.Text = "Bamboo Field"
+Bambootp.Text = "Bamboo "
 Bambootp.TextColor3 = Color3.new(1, 1, 1)
 Bambootp.TextSize = 14
 
 Spidertp.Name = "Spidertp"
 Spidertp.Parent = WaypointPage
-Spidertp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Spidertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Spidertp.BorderSizePixel = 0
 Spidertp.Position = UDim2.new(0.510999978, 0, 0.0599999987, 0)
 Spidertp.Size = UDim2.new(0, 120, 0, 20)
 Spidertp.Font = Enum.Font.GothamBold
-Spidertp.Text = "Spider Field"
+Spidertp.Text = "Spider "
 Spidertp.TextColor3 = Color3.new(1, 1, 1)
 Spidertp.TextSize = 14
 
 Strawtp.Name = "Strawtp"
 Strawtp.Parent = WaypointPage
-Strawtp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Strawtp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Strawtp.BorderSizePixel = 0
 Strawtp.Position = UDim2.new(0.755999982, 0, 0.0599999987, 0)
 Strawtp.Size = UDim2.new(0, 120, 0, 20)
 Strawtp.Font = Enum.Font.GothamBold
-Strawtp.Text = "Strawbery Field"
+Strawtp.Text = "Strawbery "
 Strawtp.TextColor3 = Color3.new(1, 1, 1)
 Strawtp.TextSize = 14
 
 Castustp.Name = "Castustp"
 Castustp.Parent = WaypointPage
-Castustp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Castustp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Castustp.BorderSizePixel = 0
 Castustp.Position = UDim2.new(0.0160000008, 0, 0.100354269, 0)
 Castustp.Size = UDim2.new(0, 120, 0, 20)
 Castustp.Font = Enum.Font.GothamBold
-Castustp.Text = "Cactus Field"
+Castustp.Text = "Cactus "
 Castustp.TextColor3 = Color3.new(1, 1, 1)
 Castustp.TextSize = 14
 
 Pumtp.Name = "Pumtp"
 Pumtp.Parent = WaypointPage
-Pumtp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Pumtp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Pumtp.BorderSizePixel = 0
 Pumtp.Position = UDim2.new(0.261000007, 0, 0.100354269, 0)
 Pumtp.Size = UDim2.new(0, 120, 0, 20)
 Pumtp.Font = Enum.Font.GothamBold
-Pumtp.Text = "Pumpkin Field"
+Pumtp.Text = "Pumpkin "
 Pumtp.TextColor3 = Color3.new(1, 1, 1)
 Pumtp.TextSize = 14
 
 Pintreetp.Name = "Pintreetp"
 Pintreetp.Parent = WaypointPage
-Pintreetp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Pintreetp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Pintreetp.BorderSizePixel = 0
 Pintreetp.Position = UDim2.new(0.510999978, 0, 0.100354269, 0)
 Pintreetp.Size = UDim2.new(0, 120, 0, 20)
 Pintreetp.Font = Enum.Font.GothamBold
-Pintreetp.Text = "Pine Tree Field"
+Pintreetp.Text = "Pine Tree"
 Pintreetp.TextColor3 = Color3.new(1, 1, 1)
 Pintreetp.TextSize = 14
 
 Rosetp.Name = "Rosetp"
 Rosetp.Parent = WaypointPage
-Rosetp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Rosetp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Rosetp.BorderSizePixel = 0
 Rosetp.Position = UDim2.new(0.755999982, 0, 0.100354269, 0)
 Rosetp.Size = UDim2.new(0, 120, 0, 20)
 Rosetp.Font = Enum.Font.GothamBold
-Rosetp.Text = "Rose Field"
+Rosetp.Text = "Rose "
 Rosetp.TextColor3 = Color3.new(1, 1, 1)
 Rosetp.TextSize = 14
 
 Toptp.Name = "Toptp"
 Toptp.Parent = WaypointPage
-Toptp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Toptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Toptp.BorderSizePixel = 0
 Toptp.Position = UDim2.new(0.755999982, 0, 0.140000001, 0)
 Toptp.Size = UDim2.new(0, 120, 0, 20)
 Toptp.Font = Enum.Font.GothamBold
-Toptp.Text = "Mountain Field"
+Toptp.Text = "Mountain "
 Toptp.TextColor3 = Color3.new(1, 1, 1)
 Toptp.TextSize = 14
 
 Coconuttp.Name = "Coconuttp"
 Coconuttp.Parent = WaypointPage
-Coconuttp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Coconuttp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Coconuttp.BorderSizePixel = 0
 Coconuttp.Position = UDim2.new(0.510999978, 0, 0.140000001, 0)
 Coconuttp.Size = UDim2.new(0, 120, 0, 20)
 Coconuttp.Font = Enum.Font.GothamBold
-Coconuttp.Text = "Coconut Field"
+Coconuttp.Text = "Coconut "
 Coconuttp.TextColor3 = Color3.new(1, 1, 1)
 Coconuttp.TextSize = 14
 
 Stumptp.Name = "Stumptp"
 Stumptp.Parent = WaypointPage
-Stumptp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Stumptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Stumptp.BorderSizePixel = 0
 Stumptp.Position = UDim2.new(0.261000007, 0, 0.140000001, 0)
 Stumptp.Size = UDim2.new(0, 120, 0, 20)
 Stumptp.Font = Enum.Font.GothamBold
-Stumptp.Text = "Stump Field"
+Stumptp.Text = "Stump "
 Stumptp.TextColor3 = Color3.new(1, 1, 1)
 Stumptp.TextSize = 14
 
 Pineappletp.Name = "Pineappletp"
 Pineappletp.Parent = WaypointPage
-Pineappletp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Pineappletp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Pineappletp.BorderSizePixel = 0
 Pineappletp.Position = UDim2.new(0.0160000008, 0, 0.140000001, 0)
 Pineappletp.Size = UDim2.new(0, 120, 0, 20)
 Pineappletp.Font = Enum.Font.GothamBold
-Pineappletp.Text = "Pineapple Field"
+Pineappletp.Text = "Pineapple "
 Pineappletp.TextColor3 = Color3.new(1, 1, 1)
 Pineappletp.TextSize = 14
 
 Peppertp.Name = "Peppertp"
 Peppertp.Parent = WaypointPage
-Peppertp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Peppertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Peppertp.BorderSizePixel = 0
 Peppertp.Position = UDim2.new(0.0160000008, 0, 0.180000007, 0)
 Peppertp.Size = UDim2.new(0, 120, 0, 20)
 Peppertp.Font = Enum.Font.GothamBold
-Peppertp.Text = "Pepper Field"
+Peppertp.Text = "Pepper "
 Peppertp.TextColor3 = Color3.new(1, 1, 1)
 Peppertp.TextSize = 14
 
 SummonSprouttp.Name = "SummonSprouttp"
 SummonSprouttp.Parent = WaypointPage
-SummonSprouttp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+SummonSprouttp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 SummonSprouttp.BorderSizePixel = 0
 SummonSprouttp.Position = UDim2.new(0.263000011, 0, 0.180000007, 0)
 SummonSprouttp.Size = UDim2.new(0, 120, 0, 20)
@@ -704,7 +704,7 @@ SummonSprouttp.TextSize = 14
 
 Coconutshoptp.Name = "Coconutshoptp"
 Coconutshoptp.Parent = WaypointPage
-Coconutshoptp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Coconutshoptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Coconutshoptp.BorderSizePixel = 0
 Coconutshoptp.Position = UDim2.new(0.513000011, 0, 0.180000007, 0)
 Coconutshoptp.Size = UDim2.new(0, 120, 0, 20)
@@ -715,7 +715,7 @@ Coconutshoptp.TextSize = 14
 
 Petaltp.Name = "Petaltp"
 Petaltp.Parent = WaypointPage
-Petaltp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Petaltp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Petaltp.BorderSizePixel = 0
 Petaltp.Position = UDim2.new(0.755999982, 0, 0.180000007, 0)
 Petaltp.Size = UDim2.new(0, 120, 0, 20)
@@ -726,7 +726,7 @@ Petaltp.TextSize = 14
 
 Shopproctp.Name = "Shopproctp"
 Shopproctp.Parent = WaypointPage
-Shopproctp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Shopproctp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Shopproctp.BorderSizePixel = 0
 Shopproctp.Position = UDim2.new(0.263000011, 0, 0.219999999, 0)
 Shopproctp.Size = UDim2.new(0, 120, 0, 20)
@@ -737,7 +737,7 @@ Shopproctp.TextSize = 14
 
 Shoptoptp.Name = "Shoptoptp"
 Shoptoptp.Parent = WaypointPage
-Shoptoptp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Shoptoptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Shoptoptp.BorderSizePixel = 0
 Shoptoptp.Position = UDim2.new(0.513000011, 0, 0.219999999, 0)
 Shoptoptp.Size = UDim2.new(0, 120, 0, 20)
@@ -748,7 +748,7 @@ Shoptoptp.TextSize = 14
 
 Shopmoontp.Name = "Shopmoontp"
 Shopmoontp.Parent = WaypointPage
-Shopmoontp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Shopmoontp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Shopmoontp.BorderSizePixel = 0
 Shopmoontp.Position = UDim2.new(0.755999982, 0, 0.219999999, 0)
 Shopmoontp.Size = UDim2.new(0, 120, 0, 20)
@@ -759,7 +759,7 @@ Shopmoontp.TextSize = 14
 
 Shopbasictp.Name = "Shopbasictp"
 Shopbasictp.Parent = WaypointPage
-Shopbasictp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Shopbasictp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Shopbasictp.BorderSizePixel = 0
 Shopbasictp.Position = UDim2.new(0.0160000008, 0, 0.219999999, 0)
 Shopbasictp.Size = UDim2.new(0, 120, 0, 20)
@@ -770,7 +770,7 @@ Shopbasictp.TextSize = 14
 
 Shopsprinklertp.Name = "Shopsprinklertp"
 Shopsprinklertp.Parent = WaypointPage
-Shopsprinklertp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Shopsprinklertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Shopsprinklertp.BorderSizePixel = 0
 Shopsprinklertp.Position = UDim2.new(0.0160000008, 0, 0.25999999, 0)
 Shopsprinklertp.Size = UDim2.new(0, 120, 0, 20)
@@ -781,7 +781,7 @@ Shopsprinklertp.TextSize = 14
 
 InstantConversiontp.Name = "InstantConversiontp"
 InstantConversiontp.Parent = WaypointPage
-InstantConversiontp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+InstantConversiontp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 InstantConversiontp.BorderSizePixel = 0
 InstantConversiontp.Position = UDim2.new(0.264773577, 0, 0.259568214, 0)
 InstantConversiontp.Size = UDim2.new(0, 120, 0, 20)
@@ -792,7 +792,7 @@ InstantConversiontp.TextSize = 14
 
 MegaMemorytp.Name = "MegaMemorytp"
 MegaMemorytp.Parent = WaypointPage
-MegaMemorytp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+MegaMemorytp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 MegaMemorytp.BorderSizePixel = 0
 MegaMemorytp.Position = UDim2.new(0.514773548, 0, 0.259568214, 0)
 MegaMemorytp.Size = UDim2.new(0, 120, 0, 20)
@@ -803,7 +803,7 @@ MegaMemorytp.TextSize = 14
 
 NightMemorytp.Name = "NightMemorytp"
 NightMemorytp.Parent = WaypointPage
-NightMemorytp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+NightMemorytp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 NightMemorytp.BorderSizePixel = 0
 NightMemorytp.Position = UDim2.new(0.755999982, 0, 0.259568214, 0)
 NightMemorytp.Size = UDim2.new(0, 120, 0, 20)
@@ -814,7 +814,7 @@ NightMemorytp.TextSize = 14
 
 ExtremeMemorytp.Name = "ExtremeMemorytp"
 ExtremeMemorytp.Parent = WaypointPage
-ExtremeMemorytp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+ExtremeMemorytp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 ExtremeMemorytp.BorderSizePixel = 0
 ExtremeMemorytp.Position = UDim2.new(0.0160000008, 0, 0.300000012, 0)
 ExtremeMemorytp.Size = UDim2.new(0, 120, 0, 20)
@@ -825,7 +825,7 @@ ExtremeMemorytp.TextSize = 14
 
 StartHalltp.Name = "StartHalltp"
 StartHalltp.Parent = WaypointPage
-StartHalltp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+StartHalltp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 StartHalltp.BorderSizePixel = 0
 StartHalltp.Position = UDim2.new(0.264999986, 0, 0.300000012, 0)
 StartHalltp.Size = UDim2.new(0, 120, 0, 20)
@@ -836,7 +836,7 @@ StartHalltp.TextSize = 14
 
 Anttp.Name = "Anttp"
 Anttp.Parent = WaypointPage
-Anttp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Anttp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Anttp.BorderSizePixel = 0
 Anttp.Position = UDim2.new(0.514999986, 0, 0.300000012, 0)
 Anttp.Size = UDim2.new(0, 120, 0, 20)
@@ -847,7 +847,7 @@ Anttp.TextSize = 14
 
 Demonmasktp.Name = "Demonmasktp"
 Demonmasktp.Parent = WaypointPage
-Demonmasktp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Demonmasktp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Demonmasktp.BorderSizePixel = 0
 Demonmasktp.Position = UDim2.new(0.0160000008, 0, 0.379999995, 0)
 Demonmasktp.Size = UDim2.new(0, 120, 0, 20)
@@ -858,7 +858,7 @@ Demonmasktp.TextSize = 14
 
 TunelBeartp.Name = "TunelBeartp"
 TunelBeartp.Parent = WaypointPage
-TunelBeartp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+TunelBeartp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 TunelBeartp.BorderSizePixel = 0
 TunelBeartp.Position = UDim2.new(0.0140000004, 0, 0.340000004, 0)
 TunelBeartp.Size = UDim2.new(0, 120, 0, 20)
@@ -869,7 +869,7 @@ TunelBeartp.TextSize = 14
 
 WindyBeetp.Name = "WindyBeetp"
 WindyBeetp.Parent = WaypointPage
-WindyBeetp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+WindyBeetp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 WindyBeetp.BorderSizePixel = 0
 WindyBeetp.Position = UDim2.new(0.263000011, 0, 0.340000004, 0)
 WindyBeetp.Size = UDim2.new(0, 120, 0, 20)
@@ -880,7 +880,7 @@ WindyBeetp.TextSize = 14
 
 Diamondmasktp.Name = "Diamondmasktp"
 Diamondmasktp.Parent = WaypointPage
-Diamondmasktp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Diamondmasktp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Diamondmasktp.BorderSizePixel = 0
 Diamondmasktp.Position = UDim2.new(0.513999999, 0, 0.340000004, 0)
 Diamondmasktp.Size = UDim2.new(0, 120, 0, 20)
@@ -891,7 +891,7 @@ Diamondmasktp.TextSize = 14
 
 Soon.Name = "Soon"
 Soon.Parent = WaypointPage
-Soon.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Soon.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Soon.BorderSizePixel = 0
 Soon.Position = UDim2.new(0.755999982, 0, 0.379999995, 0)
 Soon.Size = UDim2.new(0, 120, 0, 20)
@@ -902,7 +902,7 @@ Soon.TextSize = 14
 
 GummyMask.Name = "GummyMask"
 GummyMask.Parent = WaypointPage
-GummyMask.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+GummyMask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 GummyMask.BorderSizePixel = 0
 GummyMask.Position = UDim2.new(0.755999982, 0, 0.340000004, 0)
 GummyMask.Size = UDim2.new(0, 120, 0, 20)
@@ -913,7 +913,7 @@ GummyMask.TextSize = 14
 
 Afkstumptp.Name = "Afkstumptp"
 Afkstumptp.Parent = WaypointPage
-Afkstumptp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Afkstumptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Afkstumptp.BorderSizePixel = 0
 Afkstumptp.Position = UDim2.new(0.513999999, 0, 0.379999995, 0)
 Afkstumptp.Size = UDim2.new(0, 120, 0, 20)
@@ -924,7 +924,7 @@ Afkstumptp.TextSize = 14
 
 Stinger.Name = "Stinger"
 Stinger.Parent = WaypointPage
-Stinger.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Stinger.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Stinger.BorderSizePixel = 0
 Stinger.Position = UDim2.new(0.263000011, 0, 0.379999995, 0)
 Stinger.Size = UDim2.new(0, 120, 0, 20)
@@ -935,7 +935,7 @@ Stinger.TextSize = 14
 
 Kingamulettp.Name = "Kingamulettp"
 Kingamulettp.Parent = WaypointPage
-Kingamulettp.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Kingamulettp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Kingamulettp.BorderSizePixel = 0
 Kingamulettp.Position = UDim2.new(0.754622638, 0, 0.300000012, 0)
 Kingamulettp.Size = UDim2.new(0, 120, 0, 20)
@@ -956,7 +956,7 @@ ExtraPage.ScrollBarThickness = 5
 
 Autodig.Name = "Autodig"
 Autodig.Parent = ExtraPage
-Autodig.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autodig.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autodig.BorderSizePixel = 0
 Autodig.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 Autodig.Size = UDim2.new(0, 120, 0, 20)
@@ -967,7 +967,7 @@ Autodig.TextSize = 14
 
 Autobuffitem.Name = "Autobuffitem"
 Autobuffitem.Parent = ExtraPage
-Autobuffitem.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autobuffitem.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autobuffitem.BorderSizePixel = 0
 Autobuffitem.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
 Autobuffitem.Size = UDim2.new(0, 120, 0, 20)
@@ -978,7 +978,7 @@ Autobuffitem.TextSize = 14
 
 Killcoconutcrab.Name = "Killcoconutcrab"
 Killcoconutcrab.Parent = ExtraPage
-Killcoconutcrab.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Killcoconutcrab.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Killcoconutcrab.BorderSizePixel = 0
 Killcoconutcrab.Position = UDim2.new(0.510999978, 0, 0.0199999996, 0)
 Killcoconutcrab.Size = UDim2.new(0, 120, 0, 20)
@@ -991,7 +991,7 @@ Killcoconutcrab.TextWrapped = true
 
 KillTunnel.Name = "KillTunnel"
 KillTunnel.Parent = ExtraPage
-KillTunnel.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+KillTunnel.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 KillTunnel.BorderSizePixel = 0
 KillTunnel.Position = UDim2.new(0.755999982, 0, 0.0199999996, 0)
 KillTunnel.Size = UDim2.new(0, 120, 0, 20)
@@ -1002,7 +1002,7 @@ KillTunnel.TextSize = 14
 
 Usenightbell.Name = "Usenightbell"
 Usenightbell.Parent = ExtraPage
-Usenightbell.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Usenightbell.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Usenightbell.BorderSizePixel = 0
 Usenightbell.Position = UDim2.new(0.0160000008, 0, 0.0599999987, 0)
 Usenightbell.Size = UDim2.new(0, 120, 0, 20)
@@ -1013,7 +1013,7 @@ Usenightbell.TextSize = 14
 
 Usefielddice.Name = "Usefielddice"
 Usefielddice.Parent = ExtraPage
-Usefielddice.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Usefielddice.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Usefielddice.BorderSizePixel = 0
 Usefielddice.Position = UDim2.new(0.261000007, 0, 0.0599999987, 0)
 Usefielddice.Size = UDim2.new(0, 120, 0, 20)
@@ -1024,7 +1024,7 @@ Usefielddice.TextSize = 14
 
 Autokillvicious.Name = "Autokillvicious"
 Autokillvicious.Parent = ExtraPage
-Autokillvicious.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autokillvicious.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autokillvicious.BorderSizePixel = 0
 Autokillvicious.Position = UDim2.new(0.510999978, 0, 0.0599999987, 0)
 Autokillvicious.Size = UDim2.new(0, 120, 0, 20)
@@ -1035,7 +1035,7 @@ Autokillvicious.TextSize = 14
 
 Autokillwindy.Name = "Autokillwindy"
 Autokillwindy.Parent = ExtraPage
-Autokillwindy.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autokillwindy.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autokillwindy.BorderSizePixel = 0
 Autokillwindy.Position = UDim2.new(0.755999982, 0, 0.0599999987, 0)
 Autokillwindy.Size = UDim2.new(0, 120, 0, 20)
@@ -1046,7 +1046,7 @@ Autokillwindy.TextSize = 14
 
 Autokillmonster.Name = "Autokillmonster"
 Autokillmonster.Parent = ExtraPage
-Autokillmonster.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autokillmonster.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autokillmonster.BorderSizePixel = 0
 Autokillmonster.Position = UDim2.new(0.755999982, 0, 0.100000001, 0)
 Autokillmonster.Size = UDim2.new(0, 120, 0, 20)
@@ -1057,7 +1057,7 @@ Autokillmonster.TextSize = 14
 
 RemoteQuest.Name = "RemoteQuest"
 RemoteQuest.Parent = ExtraPage
-RemoteQuest.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+RemoteQuest.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 RemoteQuest.BorderSizePixel = 0
 RemoteQuest.Position = UDim2.new(0.510999978, 0, 0.100000001, 0)
 RemoteQuest.Size = UDim2.new(0, 120, 0, 20)
@@ -1068,7 +1068,7 @@ RemoteQuest.TextSize = 14
 
 Autogumdrop.Name = "Autogumdrop"
 Autogumdrop.Parent = ExtraPage
-Autogumdrop.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autogumdrop.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autogumdrop.BorderSizePixel = 0
 Autogumdrop.Position = UDim2.new(0.261000007, 0, 0.100000001, 0)
 Autogumdrop.Size = UDim2.new(0, 120, 0, 20)
@@ -1079,7 +1079,7 @@ Autogumdrop.TextSize = 14
 
 FindWindBee.Name = "FindWindBee"
 FindWindBee.Parent = ExtraPage
-FindWindBee.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+FindWindBee.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 FindWindBee.BorderSizePixel = 0
 FindWindBee.Position = UDim2.new(0.0160000008, 0, 0.100000001, 0)
 FindWindBee.Size = UDim2.new(0, 120, 0, 20)
@@ -1090,7 +1090,7 @@ FindWindBee.TextSize = 14
 
 Useglitter.Name = "Useglitter"
 Useglitter.Parent = ExtraPage
-Useglitter.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Useglitter.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Useglitter.BorderSizePixel = 0
 Useglitter.Position = UDim2.new(0.755999982, 0, 0.140375406, 0)
 Useglitter.Size = UDim2.new(0, 120, 0, 20)
@@ -1101,7 +1101,7 @@ Useglitter.TextSize = 14
 
 Autogliter.Name = "Autogliter"
 Autogliter.Parent = ExtraPage
-Autogliter.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autogliter.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autogliter.BorderSizePixel = 0
 Autogliter.Position = UDim2.new(0.510999978, 0, 0.140375406, 0)
 Autogliter.Size = UDim2.new(0, 120, 0, 20)
@@ -1112,7 +1112,7 @@ Autogliter.TextSize = 14
 
 Autococonut.Name = "Autococonut"
 Autococonut.Parent = ExtraPage
-Autococonut.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autococonut.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autococonut.BorderSizePixel = 0
 Autococonut.Position = UDim2.new(0.0160000008, 0, 0.140375406, 0)
 Autococonut.Size = UDim2.new(0, 120, 0, 20)
@@ -1123,7 +1123,7 @@ Autococonut.TextSize = 14
 
 Autostinger.Name = "Autostinger"
 Autostinger.Parent = ExtraPage
-Autostinger.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autostinger.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autostinger.BorderSizePixel = 0
 Autostinger.Position = UDim2.new(0.261000007, 0, 0.140375406, 0)
 Autostinger.Size = UDim2.new(0, 120, 0, 20)
@@ -1134,7 +1134,7 @@ Autostinger.TextSize = 14
 
 Eqipdemonmask.Name = "Eqipdemonmask"
 Eqipdemonmask.Parent = ExtraPage
-Eqipdemonmask.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Eqipdemonmask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Eqipdemonmask.BorderSizePixel = 0
 Eqipdemonmask.Position = UDim2.new(0.755999982, 0, 0.180000007, 0)
 Eqipdemonmask.Size = UDim2.new(0, 120, 0, 20)
@@ -1147,7 +1147,7 @@ Eqipdemonmask.TextWrapped = true
 
 Equipdemonmask.Name = "Equipdemonmask"
 Equipdemonmask.Parent = ExtraPage
-Equipdemonmask.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Equipdemonmask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Equipdemonmask.BorderSizePixel = 0
 Equipdemonmask.Position = UDim2.new(0.510999978, 0, 0.180000007, 0)
 Equipdemonmask.Size = UDim2.new(0, 120, 0, 20)
@@ -1160,7 +1160,7 @@ Equipdemonmask.TextWrapped = true
 
 Equipgummymask.Name = "Equipgummymask"
 Equipgummymask.Parent = ExtraPage
-Equipgummymask.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Equipgummymask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Equipgummymask.BorderSizePixel = 0
 Equipgummymask.Position = UDim2.new(0.261000007, 0, 0.180000007, 0)
 Equipgummymask.Size = UDim2.new(0, 120, 0, 20)
@@ -1173,7 +1173,7 @@ Equipgummymask.TextWrapped = true
 
 Automagicbean.Name = "Automagicbean"
 Automagicbean.Parent = ExtraPage
-Automagicbean.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Automagicbean.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Automagicbean.BorderSizePixel = 0
 Automagicbean.Position = UDim2.new(0.0160000008, 0, 0.180000007, 0)
 Automagicbean.Size = UDim2.new(0, 120, 0, 20)
@@ -1184,7 +1184,7 @@ Automagicbean.TextSize = 14
 
 Bringtornado.Name = "Bringtornado"
 Bringtornado.Parent = ExtraPage
-Bringtornado.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Bringtornado.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Bringtornado.BorderSizePixel = 0
 Bringtornado.Position = UDim2.new(0.755999982, 0, 0.219999999, 0)
 Bringtornado.Size = UDim2.new(0, 120, 0, 20)
@@ -1195,7 +1195,7 @@ Bringtornado.TextSize = 14
 
 Killstumnail.Name = "Killstumnail"
 Killstumnail.Parent = ExtraPage
-Killstumnail.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Killstumnail.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Killstumnail.BorderSizePixel = 0
 Killstumnail.Position = UDim2.new(0.510999978, 0, 0.219999999, 0)
 Killstumnail.Size = UDim2.new(0, 120, 0, 20)
@@ -1206,7 +1206,7 @@ Killstumnail.TextSize = 14
 
 Dropweapon.Name = "Dropweapon"
 Dropweapon.Parent = ExtraPage
-Dropweapon.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Dropweapon.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Dropweapon.BorderSizePixel = 0
 Dropweapon.Position = UDim2.new(0.261000007, 0, 0.219999999, 0)
 Dropweapon.Size = UDim2.new(0, 120, 0, 20)
@@ -1217,7 +1217,7 @@ Dropweapon.TextSize = 14
 
 Noclip.Name = "Noclip"
 Noclip.Parent = ExtraPage
-Noclip.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Noclip.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Noclip.BorderSizePixel = 0
 Noclip.Position = UDim2.new(0.0160000008, 0, 0.219999999, 0)
 Noclip.Size = UDim2.new(0, 120, 0, 20)
@@ -1228,7 +1228,7 @@ Noclip.TextSize = 14
 
 AutoDispenser.Name = "AutoDispenser"
 AutoDispenser.Parent = ExtraPage
-AutoDispenser.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+AutoDispenser.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 AutoDispenser.BorderSizePixel = 0
 AutoDispenser.Position = UDim2.new(0.0144905448, 0, 0.261870772, 0)
 AutoDispenser.Size = UDim2.new(0, 120, 0, 20)
@@ -1239,7 +1239,7 @@ AutoDispenser.TextSize = 14
 
 Autotop.Name = "Autotop"
 Autotop.Parent = ExtraPage
-Autotop.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autotop.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autotop.BorderSizePixel = 0
 Autotop.Position = UDim2.new(0.259773552, 0, 0.261870772, 0)
 Autotop.Size = UDim2.new(0, 120, 0, 20)
@@ -1250,7 +1250,7 @@ Autotop.TextSize = 14
 
 AutoDispenser_2.Name = "AutoDispenser"
 AutoDispenser_2.Parent = ExtraPage
-AutoDispenser_2.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+AutoDispenser_2.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 AutoDispenser_2.BorderSizePixel = 0
 AutoDispenser_2.Position = UDim2.new(0.259773552, 0, 0.261870772, 0)
 AutoDispenser_2.Size = UDim2.new(0, 120, 0, 20)
@@ -1261,7 +1261,7 @@ AutoDispenser_2.TextSize = 14
 
 Autored.Name = "Autored"
 Autored.Parent = ExtraPage
-Autored.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autored.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autored.BorderSizePixel = 0
 Autored.Position = UDim2.new(0.510716915, 0, 0.261870772, 0)
 Autored.Size = UDim2.new(0, 120, 0, 20)
@@ -1274,7 +1274,7 @@ Autored.TextWrapped = true
 
 Autoblue.Name = "Autoblue"
 Autoblue.Parent = ExtraPage
-Autoblue.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Autoblue.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Autoblue.BorderSizePixel = 0
 Autoblue.Position = UDim2.new(0.755999923, 0, 0.261870772, 0)
 Autoblue.Size = UDim2.new(0, 120, 0, 20)
@@ -1287,7 +1287,7 @@ Autoblue.TextWrapped = true
 
 ExtrasButton.Name = "ExtrasButton"
 ExtrasButton.Parent = MainPage
-ExtrasButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 ExtrasButton.BorderSizePixel = 0
 ExtrasButton.Position = UDim2.new(0.538195491, 0, 0.0399999991, 0)
 ExtrasButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
@@ -1298,7 +1298,7 @@ ExtrasButton.TextSize = 14
 
 FarmingButton.Name = "FarmingButton"
 FarmingButton.Parent = MainPage
-FarmingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 FarmingButton.BorderSizePixel = 0
 FarmingButton.Position = UDim2.new(0.198195487, 0, 0.0399999991, 0)
 FarmingButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
@@ -1320,7 +1320,7 @@ HomeButton.TextSize = 14
 
 SettingButton.Name = "SettingButton"
 SettingButton.Parent = MainPage
-SettingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 SettingButton.BorderSizePixel = 0
 SettingButton.Position = UDim2.new(0.708195508, 0, 0.0399999991, 0)
 SettingButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
@@ -1331,7 +1331,7 @@ SettingButton.TextSize = 14
 
 WaypointsButton.Name = "WaypointsButton"
 WaypointsButton.Parent = MainPage
-WaypointsButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 WaypointsButton.BorderSizePixel = 0
 WaypointsButton.Position = UDim2.new(0.368195474, 0, 0.0399999991, 0)
 WaypointsButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
@@ -1350,7 +1350,7 @@ SettingPage.Visible = false
 
 Antiafk.Name = "Antiafk"
 Antiafk.Parent = SettingPage
-Antiafk.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Antiafk.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Antiafk.BorderSizePixel = 0
 Antiafk.Position = UDim2.new(0.0264150947, 0, 0.0853963569, 0)
 Antiafk.Size = UDim2.new(0, 98, 0, 20)
@@ -1361,7 +1361,7 @@ Antiafk.TextSize = 14
 
 Antiafkbutton.Name = "Antiafkbutton"
 Antiafkbutton.Parent = Antiafk
-Antiafkbutton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+Antiafkbutton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 Antiafkbutton.BorderSizePixel = 0
 Antiafkbutton.Position = UDim2.new(1.08163261, 0, 0, 0)
 Antiafkbutton.Size = UDim2.new(0, 20, 0, 20)
@@ -1485,7 +1485,7 @@ Welcome.TextWrapped = true
 
 -- Scripts:
 local red = Color3.fromRGB(255, 80, 80)
-local blue = Color3.new(0.34902, 0.32549, 1)
+local blue = Color3.new(211, 211, 211, 0.6)
 
 MiniPage.Selectable = true
 MiniPage.Draggable = true 
@@ -1543,10 +1543,10 @@ end)
 
 HomeButton.MouseButton1Down:Connect(function()
 HomeButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-FarmingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-WaypointsButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-ExtrasButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-SettingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 HomePage.Visible = true
 FarmingPage.Visible = false
 WaypointPage.Visible = false
@@ -1555,11 +1555,11 @@ SettingPage.Visible = false
 end)
 
 FarmingButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 FarmingButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-WaypointsButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-ExtrasButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-SettingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 HomePage.Visible = false
 FarmingPage.Visible = true
 WaypointPage.Visible = false
@@ -1568,11 +1568,11 @@ SettingPage.Visible = false
 end)
 
 WaypointsButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-FarmingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 WaypointsButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-ExtrasButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-SettingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)  
+ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)  
 HomePage.Visible = false
 FarmingPage.Visible = false
 WaypointPage.Visible = true
@@ -1602,11 +1602,11 @@ UserInputService.InputEnded:Connect(onInputEnded)
 
 
 ExtrasButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-FarmingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-WaypointsButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 ExtrasButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-SettingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 HomePage.Visible = false
 FarmingPage.Visible = false
 WaypointPage.Visible = false
@@ -1615,10 +1615,10 @@ SettingPage.Visible = false
 end)
 
 SettingButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-FarmingButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-WaypointsButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
-ExtrasButton.BackgroundColor3 = Color3.new(0.34902, 0.32549, 1)
+HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
 SettingButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
 HomePage.Visible = false
 FarmingPage.Visible = false
