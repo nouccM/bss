@@ -434,7 +434,7 @@ DanrButton.BorderSizePixel = 0
 DanrButton.Position = UDim2.new(0.108427808, 0, 0.189853355, 0)
 DanrButton.Size = UDim2.new(0, 160, 0, 20)
 DanrButton.Font = Enum.Font.GothamBold
-DanrButton.Text = "Dandelion
+DanrButton.Text = "Dandelion"
 DanrButton.TextColor3 = Color3.new(1, 1, 1)
 DanrButton.TextSize = 14
 
