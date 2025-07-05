@@ -135,42 +135,42 @@ local NameTitle = Instance.new("TextLabel")
 local Welcome = Instance.new("TextLabel")
 
 --Properties:
-DarkCyberMainGUI.Name = "[DarkCyber]MainGUI"
+DarkCyberMainGUI.Name = "MonGUI"
 DarkCyberMainGUI.Parent = game.CoreGui
 
 MiniPage.Name = "MiniPage"
 MiniPage.Parent = DarkCyberMainGUI
-MiniPage.BackgroundColor3 = Color3.new(211, 211, 211)
+MiniPage.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 MiniPage.BorderSizePixel = 0
 MiniPage.Position = UDim2.new(0.361979187, 0, -0.7, 0)
 MiniPage.Size = UDim2.new(0, 530, 0, 25)
 
 Destroy.Name = "Destroy"
 Destroy.Parent = MiniPage
-Destroy.BackgroundColor3 = Color3.new(1, 1, 1)
+Destroy.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Destroy.BackgroundTransparency = 1
 Destroy.Position = UDim2.new(0.950854659, 0, 0, 0)
 Destroy.Size = UDim2.new(0, 25, 0, 25)
 Destroy.Font = Enum.Font.GothamBold
 Destroy.Text = "X"
-Destroy.TextColor3 = Color3.new(1, 1, 1)
+Destroy.TextColor3 = Color3.new(0, 0, 0)
 Destroy.TextSize = 20
 
 GameText.Name = "GameText"
 GameText.Parent = MiniPage
-GameText.BackgroundColor3 = Color3.new(1, 1, 1)
+GameText.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 GameText.BackgroundTransparency = 1
 GameText.Position = UDim2.new(0.337588102, 0, -0.0399999991, 0)
 GameText.Size = UDim2.new(0.324587107, 0, 0.999999702, 0)
 GameText.Font = Enum.Font.GothamBold
 GameText.Text = "Bee Swarm Simulator"
-GameText.TextColor3 = Color3.new(1, 1, 1)
+GameText.TextColor3 = Color3.new(0, 0, 0)
 GameText.TextSize = 16
 
 MainPage.Name = "MainPage"
 MainPage.Parent = MiniPage
 MainPage.Active = true
-MainPage.BackgroundColor3 = Color3.new(0.321569, 0.462745, 1)
+MainPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 MainPage.BorderSizePixel = 0
 MainPage.Position = UDim2.new(0, 0, 1.0016675, 0)
 MainPage.Selectable = true
@@ -178,18 +178,18 @@ MainPage.Size = UDim2.new(1, 0, 8.9163208, 0)
 
 VersionText.Name = "VersionText"
 VersionText.Parent = MainPage
-VersionText.BackgroundColor3 = Color3.new(1, 1, 1)
+VersionText.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 VersionText.BackgroundTransparency = 1
 VersionText.Position = UDim2.new(-0.00158959627, 0, 0.914668798, 0)
 VersionText.Size = UDim2.new(0.213481352, 0, 0.08324752, 0)
 VersionText.Font = Enum.Font.GothamBold
 VersionText.Text = "Wersja 2.1.3.7"
-VersionText.TextColor3 = Color3.new(1, 1, 1)
+VersionText.TextColor3 = Color3.new(0, 0, 0)
 VersionText.TextSize = 16
 
 HomePage.Name = "HomePage"
 HomePage.Parent = MainPage
-HomePage.BackgroundColor3 = Color3.new(1, 1, 1)
+HomePage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 HomePage.BackgroundTransparency = 1
 HomePage.BorderSizePixel = 0
 HomePage.Position = UDim2.new(0, 0, 0.132234111, 0)
@@ -197,58 +197,58 @@ HomePage.Size = UDim2.new(1, 0, 0.782434821, 0)
 
 ImageGang.Name = "ImageGang"
 ImageGang.Parent = HomePage
-ImageGang.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageGang.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 ImageGang.Position = UDim2.new(0.0295857992, 0, 0.0601093024, 0)
 ImageGang.Size = UDim2.new(0, 70, 0, 70)
 ImageGang.Image = "https://i.pinimg.com/originals/f4/40/8a/f4408ae59bc76f809d049fcc92cbea80.jpg"
 
 CreditText.Name = "CreditText"
 CreditText.Parent = HomePage
-CreditText.BackgroundColor3 = Color3.new(1, 1, 1)
+CreditText.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 CreditText.BackgroundTransparency = 1
 CreditText.Position = UDim2.new(0.188195452, 0, 0.0601093657, 0)
 CreditText.Size = UDim2.new(0.809829473, 0, 0.382513672, 0)
 CreditText.Font = Enum.Font.GothamBold
 CreditText.Text = "Przerobione przez Moncy"
-CreditText.TextColor3 = Color3.new(1, 1, 1)
+CreditText.TextColor3 = Color3.new(0, 0, 0)
 CreditText.TextSize = 20
 
 JoinText.Name = "JoinText"
 JoinText.Parent = HomePage
-JoinText.BackgroundColor3 = Color3.new(1, 1, 1)
+JoinText.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 JoinText.BackgroundTransparency = 1
 JoinText.Position = UDim2.new(0, 0, 0.453551859, 0)
 JoinText.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 JoinText.Font = Enum.Font.GothamBold
 JoinText.Text = "Zoba to"
-JoinText.TextColor3 = Color3.new(1, 1, 1)
+JoinText.TextColor3 = Color3.new(0, 0, 0)
 JoinText.TextSize = 17
 
 DiscordlinkTest.Name = "DiscordlinkTest"
 DiscordlinkTest.Parent = HomePage
-DiscordlinkTest.BackgroundColor3 = Color3.new(1, 1, 1)
+DiscordlinkTest.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 DiscordlinkTest.BackgroundTransparency = 1
 DiscordlinkTest.Position = UDim2.new(0, 0, 0.601092875, 0)
 DiscordlinkTest.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 DiscordlinkTest.Font = Enum.Font.GothamBold
 DiscordlinkTest.Text = "Kliknij https://www.youtube.com/watch?v=EndqWcuOzF4"
-DiscordlinkTest.TextColor3 = Color3.new(1, 1, 1)
+DiscordlinkTest.TextColor3 = Color3.new(0, 0, 0)
 DiscordlinkTest.TextSize = 17
 
 Copylinkdiscord.Name = "Copylinkdiscord"
 Copylinkdiscord.Parent = HomePage
-Copylinkdiscord.BackgroundColor3 = Color3.new(0.454902, 0.137255, 1)
+Copylinkdiscord.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Copylinkdiscord.BorderSizePixel = 0
 Copylinkdiscord.Position = UDim2.new(0.0295858085, 0, 0.79781419, 0)
 Copylinkdiscord.Size = UDim2.new(0.476331353, 0, 0.131147563, 0)
 Copylinkdiscord.Font = Enum.Font.GothamBold
 Copylinkdiscord.Text = "Odpal"
-Copylinkdiscord.TextColor3 = Color3.new(1, 1, 1)
+Copylinkdiscord.TextColor3 = Color3.new(0, 0, 0)
 Copylinkdiscord.TextSize = 14
 
 FarmingPage.Name = "FarmingPage"
 FarmingPage.Parent = MainPage
-FarmingPage.BackgroundColor3 = Color3.new(1, 1, 1)
+FarmingPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 FarmingPage.BackgroundTransparency = 1
 FarmingPage.Position = UDim2.new(-5.75803369e-08, 0, 0.127000019, 0)
 FarmingPage.Size = UDim2.new(0.999777615, 0, 0.787668824, 0)
@@ -256,7 +256,7 @@ FarmingPage.Visible = false
 
 FieldSelectPage.Name = "FieldSelectPage"
 FieldSelectPage.Parent = FarmingPage
-FieldSelectPage.BackgroundColor3 = Color3.new(180, 180, 180, 0.5)
+FieldSelectPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 FieldSelectPage.BorderSizePixel = 0
 FieldSelectPage.Position = UDim2.new(0.0228317082, 0, 0.16433613, 0)
 FieldSelectPage.Size = UDim2.new(0.400000006, 0, 0.835663855, 0)
@@ -264,239 +264,239 @@ FieldSelectPage.ScrollBarThickness = 5
 
 SunflowerButton.Name = "SunflowerButton"
 SunflowerButton.Parent = FieldSelectPage
-SunflowerButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SunflowerButton.BackgroundColor3 = Color3.new(1, 1, 1)
 SunflowerButton.BorderSizePixel = 0
 SunflowerButton.Position = UDim2.new(0.108427808, 0, 0.0228219759, 0)
 SunflowerButton.Size = UDim2.new(0, 160, 0, 20)
 SunflowerButton.Font = Enum.Font.GothamBold
 SunflowerButton.Text = "Sunflower"
-SunflowerButton.TextColor3 = Color3.new(1, 1, 1)
+SunflowerButton.TextColor3 = Color3.new(0, 0, 0)
 SunflowerButton.TextSize = 14
 
 MushroomButton.Name = "MushroomButton"
 MushroomButton.Parent = FieldSelectPage
-MushroomButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+MushroomButton.BackgroundColor3 = Color3.new(1, 1, 1)
 MushroomButton.BorderSizePixel = 0
 MushroomButton.Position = UDim2.new(0.108427808, 0, 0.0791205987, 0)
 MushroomButton.Size = UDim2.new(0, 160, 0, 20)
 MushroomButton.Font = Enum.Font.GothamBold
 MushroomButton.Text = "Mushroom "
-MushroomButton.TextColor3 = Color3.new(1, 1, 1)
+MushroomButton.TextColor3 = Color3.new(0, 0, 0)
 MushroomButton.TextSize = 14
 
 SpiderButton.Name = "SpiderButton"
 SpiderButton.Parent = FieldSelectPage
-SpiderButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SpiderButton.BackgroundColor3 = Color3.new(1, 1, 1)
 SpiderButton.BorderSizePixel = 0
 SpiderButton.Position = UDim2.new(0.108427808, 0, 0.412541032, 0)
 SpiderButton.Size = UDim2.new(0, 160, 0, 20)
 SpiderButton.Font = Enum.Font.GothamBold
 SpiderButton.Text = "Spider "
-SpiderButton.TextColor3 = Color3.new(1, 1, 1)
+SpiderButton.TextColor3 = Color3.new(0, 0, 0)
 SpiderButton.TextSize = 14
 
 BambooButton.Name = "BambooButton"
 BambooButton.Parent = FieldSelectPage
-BambooButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+BambooButton.BackgroundColor3 = Color3.new(1, 1, 1)
 BambooButton.BorderSizePixel = 0
 BambooButton.Position = UDim2.new(0.108427808, 0, 0.355216533, 0)
 BambooButton.Size = UDim2.new(0, 160, 0, 20)
 BambooButton.Font = Enum.Font.GothamBold
 BambooButton.Text = "Bamboo "
-BambooButton.TextColor3 = Color3.new(1, 1, 1)
+BambooButton.TextColor3 = Color3.new(0, 0, 0)
 BambooButton.TextSize = 14
 
 RoseButton.Name = "RoseButton"
 RoseButton.Parent = FieldSelectPage
-RoseButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+RoseButton.BackgroundColor3 = Color3.new(1, 1, 1)
 RoseButton.BorderSizePixel = 0
 RoseButton.Position = UDim2.new(0.108427808, 0, 0.524258256, 0)
 RoseButton.Size = UDim2.new(0, 160, 0, 20)
 RoseButton.Font = Enum.Font.GothamBold
 RoseButton.Text = "Rose "
-RoseButton.TextColor3 = Color3.new(1, 1, 1)
+RoseButton.TextColor3 = Color3.new(0, 0, 0)
 RoseButton.TextSize = 14
 
 PineTreeButton.Name = "PineTreeButton"
 PineTreeButton.Parent = FieldSelectPage
-PineTreeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+PineTreeButton.BackgroundColor3 = Color3.new(1, 1, 1)
 PineTreeButton.BorderSizePixel = 0
 PineTreeButton.Position = UDim2.new(0.108427808, 0, 0.467443049, 0)
 PineTreeButton.Size = UDim2.new(0, 160, 0, 20)
 PineTreeButton.Font = Enum.Font.GothamBold
 PineTreeButton.Text = "Pine Tree"
-PineTreeButton.TextColor3 = Color3.new(1, 1, 1)
+PineTreeButton.TextColor3 = Color3.new(0, 0, 0)
 PineTreeButton.TextSize = 14
 
 CactusButton.Name = "CactusButton"
 CactusButton.Parent = FieldSelectPage
-CactusButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+CactusButton.BackgroundColor3 = Color3.new(1, 1, 1)
 CactusButton.BorderSizePixel = 0
 CactusButton.Position = UDim2.new(0.108427808, 0, 0.579347968, 0)
 CactusButton.Size = UDim2.new(0, 160, 0, 20)
 CactusButton.Font = Enum.Font.GothamBold
 CactusButton.Text = "Cactus "
-CactusButton.TextColor3 = Color3.new(1, 1, 1)
+CactusButton.TextColor3 = Color3.new(0, 0, 0)
 CactusButton.TextSize = 14
 
 PumpkinButton.Name = "PumpkinButton"
 PumpkinButton.Parent = FieldSelectPage
-PumpkinButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+PumpkinButton.BackgroundColor3 = Color3.new(1, 1, 1)
 PumpkinButton.BorderSizePixel = 0
 PumpkinButton.Position = UDim2.new(0.108427808, 0, 0.633908749, 0)
 PumpkinButton.Size = UDim2.new(0, 160, 0, 20)
 PumpkinButton.Font = Enum.Font.GothamBold
 PumpkinButton.Text = "Pumpkin "
-PumpkinButton.TextColor3 = Color3.new(1, 1, 1)
+PumpkinButton.TextColor3 = Color3.new(0, 0, 0)
 PumpkinButton.TextSize = 14
 
 PineappleButton.Name = "PineappleButton"
 PineappleButton.Parent = FieldSelectPage
-PineappleButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+PineappleButton.BackgroundColor3 = Color3.new(1, 1, 1)
 PineappleButton.BorderSizePixel = 0
 PineappleButton.Position = UDim2.new(0.108427808, 0, 0.688469529, 0)
 PineappleButton.Size = UDim2.new(0, 160, 0, 20)
 PineappleButton.Font = Enum.Font.GothamBold
 PineappleButton.Text = "Pineapple "
-PineappleButton.TextColor3 = Color3.new(1, 1, 1)
+PineappleButton.TextColor3 = Color3.new(0, 0, 0)
 PineappleButton.TextSize = 14
 
 StumpButton.Name = "StumpButton"
 StumpButton.Parent = FieldSelectPage
-StumpButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+StumpButton.BackgroundColor3 = Color3.new(1, 1, 1)
 StumpButton.BorderSizePixel = 0
 StumpButton.Position = UDim2.new(0.108427808, 0, 0.74303031, 0)
 StumpButton.Size = UDim2.new(0, 160, 0, 20)
 StumpButton.Font = Enum.Font.GothamBold
 StumpButton.Text = "Stump"
-StumpButton.TextColor3 = Color3.new(1, 1, 1)
+StumpButton.TextColor3 = Color3.new(0, 0, 0)
 StumpButton.TextSize = 14
 
 MountainTopButton.Name = "MountainTopButton"
 MountainTopButton.Parent = FieldSelectPage
-MountainTopButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+MountainTopButton.BackgroundColor3 = Color3.new(1, 1, 1)
 MountainTopButton.BorderSizePixel = 0
 MountainTopButton.Position = UDim2.new(0.108427808, 0, 0.797487676, 0)
 MountainTopButton.Size = UDim2.new(0, 160, 0, 20)
 MountainTopButton.Font = Enum.Font.GothamBold
 MountainTopButton.Text = "Mountain "
-MountainTopButton.TextColor3 = Color3.new(1, 1, 1)
+MountainTopButton.TextColor3 = Color3.new(0, 0, 0)
 MountainTopButton.TextSize = 14
 
 CoconutButton.Name = "CoconutButton"
 CoconutButton.Parent = FieldSelectPage
-CoconutButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+CoconutButton.BackgroundColor3 = Color3.new(1, 1, 1)
 CoconutButton.BorderSizePixel = 0
 CoconutButton.Position = UDim2.new(0.108427808, 0, 0.852136731, 0)
 CoconutButton.Size = UDim2.new(0, 160, 0, 20)
 CoconutButton.Font = Enum.Font.GothamBold
-CoconutButton.Text = "Coconut Field"
-CoconutButton.TextColor3 = Color3.new(1, 1, 1)
+CoconutButton.Text = "Coconut "
+CoconutButton.TextColor3 = Color3.new(0, 0, 0)
 CoconutButton.TextSize = 14
 
 PepperButton.Name = "PepperButton"
 PepperButton.Parent = FieldSelectPage
-PepperButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+PepperButton.BackgroundColor3 = Color3.new(1, 1, 1)
 PepperButton.BorderSizePixel = 0
 PepperButton.Position = UDim2.new(0.108427808, 0, 0.908951104, 0)
 PepperButton.Size = UDim2.new(0, 160, 0, 20)
 PepperButton.Font = Enum.Font.GothamBold
 PepperButton.Text = "Pepper "
-PepperButton.TextColor3 = Color3.new(1, 1, 1)
+PepperButton.TextColor3 = Color3.new(0, 0, 0)
 PepperButton.TextSize = 14
 
 StawberryButton.Name = "StawberryButton"
 StawberryButton.Parent = FieldSelectPage
-StawberryButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+StawberryButton.BackgroundColor3 = Color3.new(1, 1, 1)
 StawberryButton.BorderSizePixel = 0
 StawberryButton.Position = UDim2.new(0.108427808, 0, 0.300172061, 0)
 StawberryButton.Size = UDim2.new(0, 160, 0, 20)
 StawberryButton.Font = Enum.Font.GothamBold
 StawberryButton.Text = "Strawberry"
-StawberryButton.TextColor3 = Color3.new(1, 1, 1)
+StawberryButton.TextColor3 = Color3.new(0, 0, 0)
 StawberryButton.TextSize = 14
 
 BlueflowerButton.Name = "BlueflowerButton"
 BlueflowerButton.Parent = FieldSelectPage
-BlueflowerButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+BlueflowerButton.BackgroundColor3 = Color3.new(1, 1, 1)
 BlueflowerButton.BorderSizePixel = 0
 BlueflowerButton.Position = UDim2.new(0.108427808, 0, 0.135357112, 0)
 BlueflowerButton.Size = UDim2.new(0, 160, 0, 20)
 BlueflowerButton.Font = Enum.Font.GothamBold
 BlueflowerButton.Text = "Blue Folower "
-BlueflowerButton.TextColor3 = Color3.new(1, 1, 1)
+BlueflowerButton.TextColor3 = Color3.new(0, 0, 0)
 BlueflowerButton.TextSize = 14
 
 DanrButton.Name = "DanrButton"
 DanrButton.Parent = FieldSelectPage
-DanrButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+DanrButton.BackgroundColor3 = Color3.new(1, 1, 1)
 DanrButton.BorderSizePixel = 0
 DanrButton.Position = UDim2.new(0.108427808, 0, 0.189853355, 0)
 DanrButton.Size = UDim2.new(0, 160, 0, 20)
 DanrButton.Font = Enum.Font.GothamBold
 DanrButton.Text = "Dandelion"
-DanrButton.TextColor3 = Color3.new(1, 1, 1)
+DanrButton.TextColor3 = Color3.new(0, 0, 0)
 DanrButton.TextSize = 14
 
 DanrButton_2.Name = "DanrButton"
 DanrButton_2.Parent = FieldSelectPage
-DanrButton_2.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+DanrButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
 DanrButton_2.BorderSizePixel = 0
 DanrButton_2.Position = UDim2.new(0.108427808, 0, 0.244349569, 0)
 DanrButton_2.Size = UDim2.new(0, 160, 0, 20)
 DanrButton_2.Font = Enum.Font.GothamBold
 DanrButton_2.Text = "Clover "
-DanrButton_2.TextColor3 = Color3.new(1, 1, 1)
+DanrButton_2.TextColor3 = Color3.new(0, 0, 0)
 DanrButton_2.TextSize = 14
 
 FieldSelectText.Name = "FieldSelectText"
 FieldSelectText.Parent = FarmingPage
-FieldSelectText.BackgroundColor3 = Color3.new(1, 1, 1)
+FieldSelectText.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 FieldSelectText.BackgroundTransparency = 1
 FieldSelectText.Position = UDim2.new(0.0247862451, 0, 0.0436922573, 0)
 FieldSelectText.Size = UDim2.new(0.398045629, 0, 0.114787988, 0)
 FieldSelectText.Font = Enum.Font.GothamBlack
 FieldSelectText.Text = "Field Select"
-FieldSelectText.TextColor3 = Color3.new(1, 1, 1)
+FieldSelectText.TextColor3 = Color3.new(0, 0, 0)
 FieldSelectText.TextSize = 16
 
 FieldText.Name = "FieldText"
 FieldText.Parent = FarmingPage
-FieldText.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+FieldText.BackgroundColor3 = Color3.new(1, 1, 1)
 FieldText.BorderSizePixel = 0
 FieldText.Position = UDim2.new(0.446999997, 0, 0.170000002, 0)
 FieldText.Size = UDim2.new(0.530130506, 0, 0.100000001, 0)
 FieldText.Font = Enum.Font.GothamBold
 FieldText.Text = " Field Select: Loading..."
-FieldText.TextColor3 = Color3.new(1, 1, 1)
+FieldText.TextColor3 = Color3.new(0, 0, 0)
 FieldText.TextSize = 14
 FieldText.TextXAlignment = Enum.TextXAlignment.Left
 
 StartButton.Name = "StartButton"
 StartButton.Parent = FarmingPage
-StartButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+StartButton.BackgroundColor3 = Color3.new(1, 1, 1)
 StartButton.BorderSizePixel = 0
 StartButton.Position = UDim2.new(0.446999997, 0, 0.300000012, 0)
 StartButton.Size = UDim2.new(0.530328393, 0, 0.100000001, 0)
 StartButton.Font = Enum.Font.GothamBold
 StartButton.Text = "Start Farming"
-StartButton.TextColor3 = Color3.new(1, 1, 1)
+StartButton.TextColor3 = Color3.new(0, 0, 0)
 StartButton.TextSize = 14
 
 FieldSelectText_2.Name = "FieldSelectText"
 FieldSelectText_2.Parent = FarmingPage
-FieldSelectText_2.BackgroundColor3 = Color3.new(1, 1, 1)
+FieldSelectText_2.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 FieldSelectText_2.BackgroundTransparency = 1
 FieldSelectText_2.Position = UDim2.new(0.447186798, 0, 0.0436922573, 0)
 FieldSelectText_2.Size = UDim2.new(0.530446231, 0, 0.114787988, 0)
 FieldSelectText_2.Font = Enum.Font.GothamBlack
 FieldSelectText_2.Text = "Farming Status"
-FieldSelectText_2.TextColor3 = Color3.new(1, 1, 1)
+FieldSelectText_2.TextColor3 = Color3.new(0, 0, 0)
 FieldSelectText_2.TextSize = 14
 
 WaypointPage.Name = "WaypointPage"
 WaypointPage.Parent = MainPage
-WaypointPage.BackgroundColor3 = Color3.new(1, 1, 1)
+WaypointPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 WaypointPage.BackgroundTransparency = 1
 WaypointPage.Position = UDim2.new(0, 0, 0.127000034, 0)
 WaypointPage.Size = UDim2.new(0, 530, 0, 174)
@@ -506,447 +506,447 @@ WaypointPage.ScrollBarThickness = 5
 
 Suntp.Name = "Suntp"
 Suntp.Parent = WaypointPage
-Suntp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Suntp.BackgroundColor3 = Color3.new(1, 1, 1)
 Suntp.BorderSizePixel = 0
-Suntp.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
+Suntp.Position = UDim2.new(0.263000011, 0, 0.379999995, 0)
 Suntp.Size = UDim2.new(0, 120, 0, 20)
 Suntp.Font = Enum.Font.GothamBold
 Suntp.Text = "Sunflower"
-Suntp.TextColor3 = Color3.new(1, 1, 1)
+Suntp.TextColor3 = Color3.new(0, 0, 0)
 Suntp.TextSize = 14
 
 Mushtp.Name = "Mushtp"
 Mushtp.Parent = WaypointPage
-Mushtp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Mushtp.BackgroundColor3 = Color3.new(1, 1, 1)
 Mushtp.BorderSizePixel = 0
-Mushtp.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
+Mushtp.Position = UDim2.new(0.264773577, 0, 0.259568214, 0)
 Mushtp.Size = UDim2.new(0, 120, 0, 20)
 Mushtp.Font = Enum.Font.GothamBold
 Mushtp.Text = "Mushroom "
-Mushtp.TextColor3 = Color3.new(1, 1, 1)
+Mushtp.TextColor3 = Color3.new(0, 0, 0)
 Mushtp.TextSize = 14
 
 Dantp.Name = "Dantp"
 Dantp.Parent = WaypointPage
-Dantp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Dantp.BackgroundColor3 = Color3.new(1, 1, 1)
 Dantp.BorderSizePixel = 0
-Dantp.Position = UDim2.new(0.510999978, 0, 0.0199999996, 0)
+Dantp.Position = UDim2.new(0.514773548, 0, 0.259568214, 0)
 Dantp.Size = UDim2.new(0, 120, 0, 20)
 Dantp.Font = Enum.Font.GothamBold
 Dantp.Text = "Dandelion"
-Dantp.TextColor3 = Color3.new(1, 1, 1)
+Dantp.TextColor3 = Color3.new(0, 0, 0)
 Dantp.TextSize = 14
 
 Blueftp.Name = "Blueftp"
 Blueftp.Parent = WaypointPage
-Blueftp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Blueftp.BackgroundColor3 = Color3.new(1, 1, 1)
 Blueftp.BorderSizePixel = 0
-Blueftp.Position = UDim2.new(0.755999982, 0, 0.0199999996, 0)
+Blueftp.Position = UDim2.new(0.755999982, 0, 0.259568214, 0)
 Blueftp.Size = UDim2.new(0, 120, 0, 20)
 Blueftp.Font = Enum.Font.GothamBold
 Blueftp.Text = "Blueflower"
-Blueftp.TextColor3 = Color3.new(1, 1, 1)
+Blueftp.TextColor3 = Color3.new(0, 0, 0)
 Blueftp.TextSize = 14
 
 Clovertp.Name = "Clovertp"
 Clovertp.Parent = WaypointPage
-Clovertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Clovertp.BackgroundColor3 = Color3.new(1, 1, 1)
 Clovertp.BorderSizePixel = 0
 Clovertp.Position = UDim2.new(0.0160000008, 0, 0.0599999987, 0)
 Clovertp.Size = UDim2.new(0, 120, 0, 20)
 Clovertp.Font = Enum.Font.GothamBold
 Clovertp.Text = "Clover "
-Clovertp.TextColor3 = Color3.new(1, 1, 1)
+Clovertp.TextColor3 = Color3.new(0, 0, 0)
 Clovertp.TextSize = 14
 
 Bambootp.Name = "Bambootp"
 Bambootp.Parent = WaypointPage
-Bambootp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Bambootp.BackgroundColor3 = Color3.new(1, 1, 1)
 Bambootp.BorderSizePixel = 0
 Bambootp.Position = UDim2.new(0.261000007, 0, 0.0599999987, 0)
 Bambootp.Size = UDim2.new(0, 120, 0, 20)
 Bambootp.Font = Enum.Font.GothamBold
 Bambootp.Text = "Bamboo "
-Bambootp.TextColor3 = Color3.new(1, 1, 1)
+Bambootp.TextColor3 = Color3.new(0, 0, 0)
 Bambootp.TextSize = 14
 
 Spidertp.Name = "Spidertp"
 Spidertp.Parent = WaypointPage
-Spidertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Spidertp.BackgroundColor3 = Color3.new(1, 1, 1)
 Spidertp.BorderSizePixel = 0
 Spidertp.Position = UDim2.new(0.510999978, 0, 0.0599999987, 0)
 Spidertp.Size = UDim2.new(0, 120, 0, 20)
 Spidertp.Font = Enum.Font.GothamBold
 Spidertp.Text = "Spider "
-Spidertp.TextColor3 = Color3.new(1, 1, 1)
+Spidertp.TextColor3 = Color3.new(0, 0, 0)
 Spidertp.TextSize = 14
 
 Strawtp.Name = "Strawtp"
 Strawtp.Parent = WaypointPage
-Strawtp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Strawtp.BackgroundColor3 = Color3.new(1, 1, 1)
 Strawtp.BorderSizePixel = 0
 Strawtp.Position = UDim2.new(0.755999982, 0, 0.0599999987, 0)
 Strawtp.Size = UDim2.new(0, 120, 0, 20)
 Strawtp.Font = Enum.Font.GothamBold
 Strawtp.Text = "Strawbery "
-Strawtp.TextColor3 = Color3.new(1, 1, 1)
+Strawtp.TextColor3 = Color3.new(0, 0, 0)
 Strawtp.TextSize = 14
 
 Castustp.Name = "Castustp"
 Castustp.Parent = WaypointPage
-Castustp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Castustp.BackgroundColor3 = Color3.new(1, 1, 1)
 Castustp.BorderSizePixel = 0
 Castustp.Position = UDim2.new(0.0160000008, 0, 0.100354269, 0)
 Castustp.Size = UDim2.new(0, 120, 0, 20)
 Castustp.Font = Enum.Font.GothamBold
 Castustp.Text = "Cactus "
-Castustp.TextColor3 = Color3.new(1, 1, 1)
+Castustp.TextColor3 = Color3.new(0, 0, 0)
 Castustp.TextSize = 14
 
 Pumtp.Name = "Pumtp"
 Pumtp.Parent = WaypointPage
-Pumtp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Pumtp.BackgroundColor3 = Color3.new(1, 1, 1)
 Pumtp.BorderSizePixel = 0
 Pumtp.Position = UDim2.new(0.261000007, 0, 0.100354269, 0)
 Pumtp.Size = UDim2.new(0, 120, 0, 20)
 Pumtp.Font = Enum.Font.GothamBold
 Pumtp.Text = "Pumpkin "
-Pumtp.TextColor3 = Color3.new(1, 1, 1)
+Pumtp.TextColor3 = Color3.new(0, 0, 0)
 Pumtp.TextSize = 14
 
 Pintreetp.Name = "Pintreetp"
 Pintreetp.Parent = WaypointPage
-Pintreetp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Pintreetp.BackgroundColor3 = Color3.new(1, 1, 1)
 Pintreetp.BorderSizePixel = 0
 Pintreetp.Position = UDim2.new(0.510999978, 0, 0.100354269, 0)
 Pintreetp.Size = UDim2.new(0, 120, 0, 20)
 Pintreetp.Font = Enum.Font.GothamBold
 Pintreetp.Text = "Pine Tree"
-Pintreetp.TextColor3 = Color3.new(1, 1, 1)
+Pintreetp.TextColor3 = Color3.new(0, 0, 0)
 Pintreetp.TextSize = 14
 
 Rosetp.Name = "Rosetp"
 Rosetp.Parent = WaypointPage
-Rosetp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Rosetp.BackgroundColor3 = Color3.new(1, 1, 1)
 Rosetp.BorderSizePixel = 0
 Rosetp.Position = UDim2.new(0.755999982, 0, 0.100354269, 0)
 Rosetp.Size = UDim2.new(0, 120, 0, 20)
 Rosetp.Font = Enum.Font.GothamBold
 Rosetp.Text = "Rose "
-Rosetp.TextColor3 = Color3.new(1, 1, 1)
+Rosetp.TextColor3 = Color3.new(0, 0, 0)
 Rosetp.TextSize = 14
 
 Toptp.Name = "Toptp"
 Toptp.Parent = WaypointPage
-Toptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Toptp.BackgroundColor3 = Color3.new(1, 1, 1)
 Toptp.BorderSizePixel = 0
 Toptp.Position = UDim2.new(0.755999982, 0, 0.140000001, 0)
 Toptp.Size = UDim2.new(0, 120, 0, 20)
 Toptp.Font = Enum.Font.GothamBold
 Toptp.Text = "Mountain "
-Toptp.TextColor3 = Color3.new(1, 1, 1)
+Toptp.TextColor3 = Color3.new(0, 0, 0)
 Toptp.TextSize = 14
 
 Coconuttp.Name = "Coconuttp"
 Coconuttp.Parent = WaypointPage
-Coconuttp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Coconuttp.BackgroundColor3 = Color3.new(1, 1, 1)
 Coconuttp.BorderSizePixel = 0
 Coconuttp.Position = UDim2.new(0.510999978, 0, 0.140000001, 0)
 Coconuttp.Size = UDim2.new(0, 120, 0, 20)
 Coconuttp.Font = Enum.Font.GothamBold
 Coconuttp.Text = "Coconut "
-Coconuttp.TextColor3 = Color3.new(1, 1, 1)
+Coconuttp.TextColor3 = Color3.new(0, 0, 0)
 Coconuttp.TextSize = 14
 
 Stumptp.Name = "Stumptp"
 Stumptp.Parent = WaypointPage
-Stumptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Stumptp.BackgroundColor3 = Color3.new(1, 1, 1)
 Stumptp.BorderSizePixel = 0
 Stumptp.Position = UDim2.new(0.261000007, 0, 0.140000001, 0)
 Stumptp.Size = UDim2.new(0, 120, 0, 20)
 Stumptp.Font = Enum.Font.GothamBold
 Stumptp.Text = "Stump "
-Stumptp.TextColor3 = Color3.new(1, 1, 1)
+Stumptp.TextColor3 = Color3.new(0, 0, 0)
 Stumptp.TextSize = 14
 
 Pineappletp.Name = "Pineappletp"
 Pineappletp.Parent = WaypointPage
-Pineappletp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Pineappletp.BackgroundColor3 = Color3.new(1, 1, 1)
 Pineappletp.BorderSizePixel = 0
 Pineappletp.Position = UDim2.new(0.0160000008, 0, 0.140000001, 0)
 Pineappletp.Size = UDim2.new(0, 120, 0, 20)
 Pineappletp.Font = Enum.Font.GothamBold
 Pineappletp.Text = "Pineapple "
-Pineappletp.TextColor3 = Color3.new(1, 1, 1)
+Pineappletp.TextColor3 = Color3.new(0, 0, 0)
 Pineappletp.TextSize = 14
 
 Peppertp.Name = "Peppertp"
 Peppertp.Parent = WaypointPage
-Peppertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Peppertp.BackgroundColor3 = Color3.new(1, 1, 1)
 Peppertp.BorderSizePixel = 0
 Peppertp.Position = UDim2.new(0.0160000008, 0, 0.180000007, 0)
 Peppertp.Size = UDim2.new(0, 120, 0, 20)
 Peppertp.Font = Enum.Font.GothamBold
 Peppertp.Text = "Pepper "
-Peppertp.TextColor3 = Color3.new(1, 1, 1)
+Peppertp.TextColor3 = Color3.new(0, 0, 0)
 Peppertp.TextSize = 14
 
 SummonSprouttp.Name = "SummonSprouttp"
 SummonSprouttp.Parent = WaypointPage
-SummonSprouttp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SummonSprouttp.BackgroundColor3 = Color3.new(1, 1, 1)
 SummonSprouttp.BorderSizePixel = 0
 SummonSprouttp.Position = UDim2.new(0.263000011, 0, 0.180000007, 0)
 SummonSprouttp.Size = UDim2.new(0, 120, 0, 20)
 SummonSprouttp.Font = Enum.Font.GothamBold
 SummonSprouttp.Text = "Sprout"
-SummonSprouttp.TextColor3 = Color3.new(1, 1, 1)
+SummonSprouttp.TextColor3 = Color3.new(0, 0, 0)
 SummonSprouttp.TextSize = 14
 
 Coconutshoptp.Name = "Coconutshoptp"
 Coconutshoptp.Parent = WaypointPage
-Coconutshoptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Coconutshoptp.BackgroundColor3 = Color3.new(1, 1, 1)
 Coconutshoptp.BorderSizePixel = 0
 Coconutshoptp.Position = UDim2.new(0.513000011, 0, 0.180000007, 0)
 Coconutshoptp.Size = UDim2.new(0, 120, 0, 20)
 Coconutshoptp.Font = Enum.Font.GothamBold
 Coconutshoptp.Text = "Coconut Shop"
-Coconutshoptp.TextColor3 = Color3.new(1, 1, 1)
+Coconutshoptp.TextColor3 = Color3.new(0, 0, 0)
 Coconutshoptp.TextSize = 14
 
 Petaltp.Name = "Petaltp"
 Petaltp.Parent = WaypointPage
-Petaltp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Petaltp.BackgroundColor3 = Color3.new(1, 1, 1)
 Petaltp.BorderSizePixel = 0
 Petaltp.Position = UDim2.new(0.755999982, 0, 0.180000007, 0)
 Petaltp.Size = UDim2.new(0, 120, 0, 20)
 Petaltp.Font = Enum.Font.GothamBold
 Petaltp.Text = "Petal Shop"
-Petaltp.TextColor3 = Color3.new(1, 1, 1)
+Petaltp.TextColor3 = Color3.new(0, 0, 0)
 Petaltp.TextSize = 14
 
 Shopproctp.Name = "Shopproctp"
 Shopproctp.Parent = WaypointPage
-Shopproctp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Shopproctp.BackgroundColor3 = Color3.new(1, 1, 1)
 Shopproctp.BorderSizePixel = 0
 Shopproctp.Position = UDim2.new(0.263000011, 0, 0.219999999, 0)
 Shopproctp.Size = UDim2.new(0, 120, 0, 20)
 Shopproctp.Font = Enum.Font.GothamBold
 Shopproctp.Text = "Pro Shop"
-Shopproctp.TextColor3 = Color3.new(1, 1, 1)
+Shopproctp.TextColor3 = Color3.new(0, 0, 0)
 Shopproctp.TextSize = 14
 
 Shoptoptp.Name = "Shoptoptp"
 Shoptoptp.Parent = WaypointPage
-Shoptoptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Shoptoptp.BackgroundColor3 = Color3.new(1, 1, 1)
 Shoptoptp.BorderSizePixel = 0
 Shoptoptp.Position = UDim2.new(0.513000011, 0, 0.219999999, 0)
 Shoptoptp.Size = UDim2.new(0, 120, 0, 20)
 Shoptoptp.Font = Enum.Font.GothamBold
 Shoptoptp.Text = "Master Shop"
-Shoptoptp.TextColor3 = Color3.new(1, 1, 1)
+Shoptoptp.TextColor3 = Color3.new(0, 0, 0)
 Shoptoptp.TextSize = 14
 
 Shopmoontp.Name = "Shopmoontp"
 Shopmoontp.Parent = WaypointPage
-Shopmoontp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Shopmoontp.BackgroundColor3 = Color3.new(1, 1, 1)
 Shopmoontp.BorderSizePixel = 0
 Shopmoontp.Position = UDim2.new(0.755999982, 0, 0.219999999, 0)
 Shopmoontp.Size = UDim2.new(0, 120, 0, 20)
 Shopmoontp.Font = Enum.Font.GothamBold
 Shopmoontp.Text = "Moon Charm"
-Shopmoontp.TextColor3 = Color3.new(1, 1, 1)
+Shopmoontp.TextColor3 = Color3.new(0, 0, 0)
 Shopmoontp.TextSize = 14
 
 Shopbasictp.Name = "Shopbasictp"
 Shopbasictp.Parent = WaypointPage
-Shopbasictp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Shopbasictp.BackgroundColor3 = Color3.new(1, 1, 1)
 Shopbasictp.BorderSizePixel = 0
 Shopbasictp.Position = UDim2.new(0.0160000008, 0, 0.219999999, 0)
 Shopbasictp.Size = UDim2.new(0, 120, 0, 20)
 Shopbasictp.Font = Enum.Font.GothamBold
 Shopbasictp.Text = "Noob Shop"
-Shopbasictp.TextColor3 = Color3.new(1, 1, 1)
+Shopbasictp.TextColor3 = Color3.new(0, 0, 0)
 Shopbasictp.TextSize = 14
 
 Shopsprinklertp.Name = "Shopsprinklertp"
 Shopsprinklertp.Parent = WaypointPage
-Shopsprinklertp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Shopsprinklertp.BackgroundColor3 = Color3.new(1, 1, 1)
 Shopsprinklertp.BorderSizePixel = 0
 Shopsprinklertp.Position = UDim2.new(0.0160000008, 0, 0.25999999, 0)
 Shopsprinklertp.Size = UDim2.new(0, 120, 0, 20)
 Shopsprinklertp.Font = Enum.Font.GothamBold
 Shopsprinklertp.Text = "Sprinkler Shop"
-Shopsprinklertp.TextColor3 = Color3.new(1, 1, 1)
+Shopsprinklertp.TextColor3 = Color3.new(0, 0, 0)
 Shopsprinklertp.TextSize = 14
 
 InstantConversiontp.Name = "InstantConversiontp"
 InstantConversiontp.Parent = WaypointPage
-InstantConversiontp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+InstantConversiontp.BackgroundColor3 = Color3.new(1, 0.615, 0)
 InstantConversiontp.BorderSizePixel = 0
-InstantConversiontp.Position = UDim2.new(0.264773577, 0, 0.259568214, 0)
+InstantConversiontp.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
 InstantConversiontp.Size = UDim2.new(0, 120, 0, 20)
 InstantConversiontp.Font = Enum.Font.GothamBold
 InstantConversiontp.Text = "Instant Sell"
-InstantConversiontp.TextColor3 = Color3.new(1, 1, 1)
+InstantConversiontp.TextColor3 = Color3.new(0, 0, 0)
 InstantConversiontp.TextSize = 14
 
 MegaMemorytp.Name = "MegaMemorytp"
 MegaMemorytp.Parent = WaypointPage
-MegaMemorytp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+MegaMemorytp.BackgroundColor3 = Color3.new(1, 1, 1)
 MegaMemorytp.BorderSizePixel = 0
-MegaMemorytp.Position = UDim2.new(0.514773548, 0, 0.259568214, 0)
+MegaMemorytp.Position = UDim2.new(0.514999986, 0, 0.300000012, 0)
 MegaMemorytp.Size = UDim2.new(0, 120, 0, 20)
 MegaMemorytp.Font = Enum.Font.GothamBold
 MegaMemorytp.Text = "Mega Memory"
-MegaMemorytp.TextColor3 = Color3.new(1, 1, 1)
+MegaMemorytp.TextColor3 = Color3.new(0, 0, 0)
 MegaMemorytp.TextSize = 14
 
 NightMemorytp.Name = "NightMemorytp"
 NightMemorytp.Parent = WaypointPage
-NightMemorytp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+NightMemorytp.BackgroundColor3 = Color3.new(1, 1, 1)
 NightMemorytp.BorderSizePixel = 0
-NightMemorytp.Position = UDim2.new(0.755999982, 0, 0.259568214, 0)
+NightMemorytp.Position = UDim2.new(0.264999986, 0, 0.300000012, 0)
 NightMemorytp.Size = UDim2.new(0, 120, 0, 20)
 NightMemorytp.Font = Enum.Font.GothamBold
 NightMemorytp.Text = "Night Memory"
-NightMemorytp.TextColor3 = Color3.new(1, 1, 1)
+NightMemorytp.TextColor3 = Color3.new(0, 0, 0)
 NightMemorytp.TextSize = 14
 
 ExtremeMemorytp.Name = "ExtremeMemorytp"
 ExtremeMemorytp.Parent = WaypointPage
-ExtremeMemorytp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+ExtremeMemorytp.BackgroundColor3 = Color3.new(1, 1, 1)
 ExtremeMemorytp.BorderSizePixel = 0
 ExtremeMemorytp.Position = UDim2.new(0.0160000008, 0, 0.300000012, 0)
 ExtremeMemorytp.Size = UDim2.new(0, 120, 0, 20)
 ExtremeMemorytp.Font = Enum.Font.GothamBold
 ExtremeMemorytp.Text = "Extreme Memory"
-ExtremeMemorytp.TextColor3 = Color3.new(1, 1, 1)
+ExtremeMemorytp.TextColor3 = Color3.new(0, 0, 0)
 ExtremeMemorytp.TextSize = 14
 
 StartHalltp.Name = "StartHalltp"
 StartHalltp.Parent = WaypointPage
-StartHalltp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+StartHalltp.BackgroundColor3 = Color3.new(0.444, 1, 0.222)
 StartHalltp.BorderSizePixel = 0
-StartHalltp.Position = UDim2.new(0.264999986, 0, 0.300000012, 0)
+StartHalltp.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 StartHalltp.Size = UDim2.new(0, 120, 0, 20)
 StartHalltp.Font = Enum.Font.GothamBold
 StartHalltp.Text = "Star Hall"
-StartHalltp.TextColor3 = Color3.new(1, 1, 1)
+StartHalltp.TextColor3 = Color3.new(0, 0, 0)
 StartHalltp.TextSize = 14
 
 Anttp.Name = "Anttp"
 Anttp.Parent = WaypointPage
-Anttp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Anttp.BackgroundColor3 = Color3.new(1, 0.615, 0)
 Anttp.BorderSizePixel = 0
-Anttp.Position = UDim2.new(0.514999986, 0, 0.300000012, 0)
+Anttp.Position = UDim2.new (0.510999978, 0, 0.0199999996, 0)
 Anttp.Size = UDim2.new(0, 120, 0, 20)
 Anttp.Font = Enum.Font.GothamBold
-Anttp.Text = "Ant"
-Anttp.TextColor3 = Color3.new(1, 1, 1)
+Anttp.Text = "Instant 2 *P*"
+Anttp.TextColor3 = Color3.new(0, 0, 0)
 Anttp.TextSize = 14
 
 Demonmasktp.Name = "Demonmasktp"
 Demonmasktp.Parent = WaypointPage
-Demonmasktp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Demonmasktp.BackgroundColor3 = Color3.new(1, 1, 1)
 Demonmasktp.BorderSizePixel = 0
 Demonmasktp.Position = UDim2.new(0.0160000008, 0, 0.379999995, 0)
 Demonmasktp.Size = UDim2.new(0, 120, 0, 20)
 Demonmasktp.Font = Enum.Font.GothamBold
 Demonmasktp.Text = "Demon Mask"
-Demonmasktp.TextColor3 = Color3.new(1, 1, 1)
+Demonmasktp.TextColor3 = Color3.new(0, 0, 0)
 Demonmasktp.TextSize = 14
 
 TunelBeartp.Name = "TunelBeartp"
 TunelBeartp.Parent = WaypointPage
-TunelBeartp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+TunelBeartp.BackgroundColor3 = Color3.new(1, 1, 1)
 TunelBeartp.BorderSizePixel = 0
 TunelBeartp.Position = UDim2.new(0.0140000004, 0, 0.340000004, 0)
 TunelBeartp.Size = UDim2.new(0, 120, 0, 20)
 TunelBeartp.Font = Enum.Font.GothamBold
 TunelBeartp.Text = "Tunel Bear"
-TunelBeartp.TextColor3 = Color3.new(1, 1, 1)
+TunelBeartp.TextColor3 = Color3.new(0, 0, 0)
 TunelBeartp.TextSize = 14
 
 WindyBeetp.Name = "WindyBeetp"
 WindyBeetp.Parent = WaypointPage
-WindyBeetp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+WindyBeetp.BackgroundColor3 = Color3.new(1, 1, 1)
 WindyBeetp.BorderSizePixel = 0
 WindyBeetp.Position = UDim2.new(0.263000011, 0, 0.340000004, 0)
 WindyBeetp.Size = UDim2.new(0, 120, 0, 20)
 WindyBeetp.Font = Enum.Font.GothamBold
 WindyBeetp.Text = "WindyBee"
-WindyBeetp.TextColor3 = Color3.new(1, 1, 1)
+WindyBeetp.TextColor3 = Color3.new(0, 0, 0)
 WindyBeetp.TextSize = 14
 
 Diamondmasktp.Name = "Diamondmasktp"
 Diamondmasktp.Parent = WaypointPage
-Diamondmasktp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Diamondmasktp.BackgroundColor3 = Color3.new(1, 1, 1)
 Diamondmasktp.BorderSizePixel = 0
 Diamondmasktp.Position = UDim2.new(0.513999999, 0, 0.340000004, 0)
 Diamondmasktp.Size = UDim2.new(0, 120, 0, 20)
 Diamondmasktp.Font = Enum.Font.GothamBold
 Diamondmasktp.Text = "Diamond Mask"
-Diamondmasktp.TextColor3 = Color3.new(1, 1, 1)
+Diamondmasktp.TextColor3 = Color3.new(0, 0, 0)
 Diamondmasktp.TextSize = 14
 
 Soon.Name = "Soon"
 Soon.Parent = WaypointPage
-Soon.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Soon.BackgroundColor3 = Color3.new(1, 1, 1)
 Soon.BorderSizePixel = 0
 Soon.Position = UDim2.new(0.755999982, 0, 0.379999995, 0)
 Soon.Size = UDim2.new(0, 120, 0, 20)
 Soon.Font = Enum.Font.GothamBold
 Soon.Text = "SOON"
-Soon.TextColor3 = Color3.new(1, 1, 1)
+Soon.TextColor3 = Color3.new(0, 0, 0)
 Soon.TextSize = 14
 
 GummyMask.Name = "GummyMask"
 GummyMask.Parent = WaypointPage
-GummyMask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+GummyMask.BackgroundColor3 = Color3.new(1, 1, 1)
 GummyMask.BorderSizePixel = 0
 GummyMask.Position = UDim2.new(0.755999982, 0, 0.340000004, 0)
 GummyMask.Size = UDim2.new(0, 120, 0, 20)
 GummyMask.Font = Enum.Font.GothamBold
 GummyMask.Text = "Gummy Mask"
-GummyMask.TextColor3 = Color3.new(1, 1, 1)
+GummyMask.TextColor3 = Color3.new(0, 0, 0)
 GummyMask.TextSize = 14
 
 Afkstumptp.Name = "Afkstumptp"
 Afkstumptp.Parent = WaypointPage
-Afkstumptp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Afkstumptp.BackgroundColor3 = Color3.new(1, 1, 1)
 Afkstumptp.BorderSizePixel = 0
 Afkstumptp.Position = UDim2.new(0.513999999, 0, 0.379999995, 0)
 Afkstumptp.Size = UDim2.new(0, 120, 0, 20)
 Afkstumptp.Font = Enum.Font.GothamBold
 Afkstumptp.Text = "AFK Stumnail"
-Afkstumptp.TextColor3 = Color3.new(1, 1, 1)
+Afkstumptp.TextColor3 = Color3.new(0, 0, 0)
 Afkstumptp.TextSize = 14
 
 Stinger.Name = "Stinger"
 Stinger.Parent = WaypointPage
-Stinger.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Stinger.BackgroundColor3 = Color3.new(1, 0.615, 0)
 Stinger.BorderSizePixel = 0
-Stinger.Position = UDim2.new(0.263000011, 0, 0.379999995, 0)
+Stinger.Position = UDim2.new(0.755999982, 0, 0.0199999996, 0)
 Stinger.Size = UDim2.new(0, 120, 0, 20)
 Stinger.Font = Enum.Font.GothamBold
-Stinger.Text = "Stinger"
-Stinger.TextColor3 = Color3.new(1, 1, 1)
+Stinger.Text = "Instant 3 *MT*"
+Stinger.TextColor3 = Color3.new(0, 0, 0)
 Stinger.TextSize = 14
 
 Kingamulettp.Name = "Kingamulettp"
 Kingamulettp.Parent = WaypointPage
-Kingamulettp.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Kingamulettp.BackgroundColor3 = Color3.new(1, 1, 1)
 Kingamulettp.BorderSizePixel = 0
 Kingamulettp.Position = UDim2.new(0.754622638, 0, 0.300000012, 0)
 Kingamulettp.Size = UDim2.new(0, 120, 0, 20)
 Kingamulettp.Font = Enum.Font.GothamBold
 Kingamulettp.Text = "King Amulet"
-Kingamulettp.TextColor3 = Color3.new(1, 1, 1)
+Kingamulettp.TextColor3 = Color3.new(0, 0, 0)
 Kingamulettp.TextSize = 14
 
 ExtraPage.Name = "ExtraPage"
 ExtraPage.Parent = MainPage
-ExtraPage.BackgroundColor3 = Color3.new(1, 1, 1)
+ExtraPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 ExtraPage.BackgroundTransparency = 1
 ExtraPage.Position = UDim2.new(0, 0, 0.127000034, 0)
 ExtraPage.Size = UDim2.new(0, 530, 0, 174)
@@ -956,393 +956,393 @@ ExtraPage.ScrollBarThickness = 5
 
 Autodig.Name = "Autodig"
 Autodig.Parent = ExtraPage
-Autodig.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autodig.BackgroundColor3 = Color3.new(1, 1, 1)
 Autodig.BorderSizePixel = 0
 Autodig.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 Autodig.Size = UDim2.new(0, 120, 0, 20)
 Autodig.Font = Enum.Font.GothamBold
 Autodig.Text = "Auto Dig"
-Autodig.TextColor3 = Color3.new(1, 1, 1)
+Autodig.TextColor3 = Color3.new(0, 0, 0)
 Autodig.TextSize = 14
 
 Autobuffitem.Name = "Autobuffitem"
 Autobuffitem.Parent = ExtraPage
-Autobuffitem.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autobuffitem.BackgroundColor3 = Color3.new(1, 1, 1)
 Autobuffitem.BorderSizePixel = 0
 Autobuffitem.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
 Autobuffitem.Size = UDim2.new(0, 120, 0, 20)
 Autobuffitem.Font = Enum.Font.GothamBold
 Autobuffitem.Text = "Auto Item Buff"
-Autobuffitem.TextColor3 = Color3.new(1, 1, 1)
+Autobuffitem.TextColor3 = Color3.new(0, 0, 0)
 Autobuffitem.TextSize = 14
 
 Killcoconutcrab.Name = "Killcoconutcrab"
 Killcoconutcrab.Parent = ExtraPage
-Killcoconutcrab.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Killcoconutcrab.BackgroundColor3 = Color3.new(1, 1, 1)
 Killcoconutcrab.BorderSizePixel = 0
 Killcoconutcrab.Position = UDim2.new(0.510999978, 0, 0.0199999996, 0)
 Killcoconutcrab.Size = UDim2.new(0, 120, 0, 20)
 Killcoconutcrab.Font = Enum.Font.GothamBold
 Killcoconutcrab.Text = "Kill Coconut Crab"
-Killcoconutcrab.TextColor3 = Color3.new(1, 1, 1)
+Killcoconutcrab.TextColor3 = Color3.new(0, 0, 0)
 Killcoconutcrab.TextScaled = true
 Killcoconutcrab.TextSize = 14
 Killcoconutcrab.TextWrapped = true
 
 KillTunnel.Name = "KillTunnel"
 KillTunnel.Parent = ExtraPage
-KillTunnel.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+KillTunnel.BackgroundColor3 = Color3.new(1, 1, 1)
 KillTunnel.BorderSizePixel = 0
 KillTunnel.Position = UDim2.new(0.755999982, 0, 0.0199999996, 0)
 KillTunnel.Size = UDim2.new(0, 120, 0, 20)
 KillTunnel.Font = Enum.Font.GothamBold
 KillTunnel.Text = "Kill Tunnel"
-KillTunnel.TextColor3 = Color3.new(1, 1, 1)
+KillTunnel.TextColor3 = Color3.new(0, 0, 0)
 KillTunnel.TextSize = 14
 
 Usenightbell.Name = "Usenightbell"
 Usenightbell.Parent = ExtraPage
-Usenightbell.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Usenightbell.BackgroundColor3 = Color3.new(1, 1, 1)
 Usenightbell.BorderSizePixel = 0
 Usenightbell.Position = UDim2.new(0.0160000008, 0, 0.0599999987, 0)
 Usenightbell.Size = UDim2.new(0, 120, 0, 20)
 Usenightbell.Font = Enum.Font.GothamBold
 Usenightbell.Text = "Use Night Bell"
-Usenightbell.TextColor3 = Color3.new(1, 1, 1)
+Usenightbell.TextColor3 = Color3.new(0, 0, 0)
 Usenightbell.TextSize = 14
 
 Usefielddice.Name = "Usefielddice"
 Usefielddice.Parent = ExtraPage
-Usefielddice.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Usefielddice.BackgroundColor3 = Color3.new(1, 1, 1)
 Usefielddice.BorderSizePixel = 0
 Usefielddice.Position = UDim2.new(0.261000007, 0, 0.0599999987, 0)
 Usefielddice.Size = UDim2.new(0, 120, 0, 20)
 Usefielddice.Font = Enum.Font.GothamBold
 Usefielddice.Text = "Use Field Dice"
-Usefielddice.TextColor3 = Color3.new(1, 1, 1)
+Usefielddice.TextColor3 = Color3.new(0, 0, 0)
 Usefielddice.TextSize = 14
 
 Autokillvicious.Name = "Autokillvicious"
 Autokillvicious.Parent = ExtraPage
-Autokillvicious.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autokillvicious.BackgroundColor3 = Color3.new(1, 1, 1)
 Autokillvicious.BorderSizePixel = 0
 Autokillvicious.Position = UDim2.new(0.510999978, 0, 0.0599999987, 0)
 Autokillvicious.Size = UDim2.new(0, 120, 0, 20)
 Autokillvicious.Font = Enum.Font.GothamBold
 Autokillvicious.Text = "Auto Kill Vicious"
-Autokillvicious.TextColor3 = Color3.new(1, 1, 1)
+Autokillvicious.TextColor3 = Color3.new(0, 0, 0)
 Autokillvicious.TextSize = 14
 
 Autokillwindy.Name = "Autokillwindy"
 Autokillwindy.Parent = ExtraPage
-Autokillwindy.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autokillwindy.BackgroundColor3 = Color3.new(1, 1, 1)
 Autokillwindy.BorderSizePixel = 0
 Autokillwindy.Position = UDim2.new(0.755999982, 0, 0.0599999987, 0)
 Autokillwindy.Size = UDim2.new(0, 120, 0, 20)
 Autokillwindy.Font = Enum.Font.GothamBold
 Autokillwindy.Text = "Auto Kill Windy "
-Autokillwindy.TextColor3 = Color3.new(1, 1, 1)
+Autokillwindy.TextColor3 = Color3.new(0, 0, 0)
 Autokillwindy.TextSize = 14
 
 Autokillmonster.Name = "Autokillmonster"
 Autokillmonster.Parent = ExtraPage
-Autokillmonster.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autokillmonster.BackgroundColor3 = Color3.new(1, 1, 1)
 Autokillmonster.BorderSizePixel = 0
 Autokillmonster.Position = UDim2.new(0.755999982, 0, 0.100000001, 0)
 Autokillmonster.Size = UDim2.new(0, 120, 0, 20)
 Autokillmonster.Font = Enum.Font.GothamBold
 Autokillmonster.Text = "Auto Night Bell"
-Autokillmonster.TextColor3 = Color3.new(1, 1, 1)
+Autokillmonster.TextColor3 = Color3.new(0, 0, 0)
 Autokillmonster.TextSize = 14
 
 RemoteQuest.Name = "RemoteQuest"
 RemoteQuest.Parent = ExtraPage
-RemoteQuest.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+RemoteQuest.BackgroundColor3 = Color3.new(1, 1, 1)
 RemoteQuest.BorderSizePixel = 0
 RemoteQuest.Position = UDim2.new(0.510999978, 0, 0.100000001, 0)
 RemoteQuest.Size = UDim2.new(0, 120, 0, 20)
 RemoteQuest.Font = Enum.Font.GothamBold
 RemoteQuest.Text = "Auto Quest"
-RemoteQuest.TextColor3 = Color3.new(1, 1, 1)
+RemoteQuest.TextColor3 = Color3.new(0, 0, 0)
 RemoteQuest.TextSize = 14
 
 Autogumdrop.Name = "Autogumdrop"
 Autogumdrop.Parent = ExtraPage
-Autogumdrop.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autogumdrop.BackgroundColor3 = Color3.new(1, 1, 1)
 Autogumdrop.BorderSizePixel = 0
 Autogumdrop.Position = UDim2.new(0.261000007, 0, 0.100000001, 0)
 Autogumdrop.Size = UDim2.new(0, 120, 0, 20)
 Autogumdrop.Font = Enum.Font.GothamBold
 Autogumdrop.Text = "Auto Gumdrop"
-Autogumdrop.TextColor3 = Color3.new(1, 1, 1)
+Autogumdrop.TextColor3 = Color3.new(0, 0, 0)
 Autogumdrop.TextSize = 14
 
 FindWindBee.Name = "FindWindBee"
 FindWindBee.Parent = ExtraPage
-FindWindBee.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+FindWindBee.BackgroundColor3 = Color3.new(1, 1, 1)
 FindWindBee.BorderSizePixel = 0
 FindWindBee.Position = UDim2.new(0.0160000008, 0, 0.100000001, 0)
 FindWindBee.Size = UDim2.new(0, 120, 0, 20)
 FindWindBee.Font = Enum.Font.GothamBold
 FindWindBee.Text = "Find Windy Bee"
-FindWindBee.TextColor3 = Color3.new(1, 1, 1)
+FindWindBee.TextColor3 = Color3.new(0, 0, 0)
 FindWindBee.TextSize = 14
 
 Useglitter.Name = "Useglitter"
 Useglitter.Parent = ExtraPage
-Useglitter.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Useglitter.BackgroundColor3 = Color3.new(1, 1, 1)
 Useglitter.BorderSizePixel = 0
 Useglitter.Position = UDim2.new(0.755999982, 0, 0.140375406, 0)
 Useglitter.Size = UDim2.new(0, 120, 0, 20)
 Useglitter.Font = Enum.Font.GothamBold
 Useglitter.Text = "Auto Farm Sparkles"
-Useglitter.TextColor3 = Color3.new(1, 1, 1)
+Useglitter.TextColor3 = Color3.new(0, 0, 0)
 Useglitter.TextSize = 14
 
 Autogliter.Name = "Autogliter"
 Autogliter.Parent = ExtraPage
-Autogliter.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autogliter.BackgroundColor3 = Color3.new(1, 1, 1)
 Autogliter.BorderSizePixel = 0
 Autogliter.Position = UDim2.new(0.510999978, 0, 0.140375406, 0)
 Autogliter.Size = UDim2.new(0, 120, 0, 20)
 Autogliter.Font = Enum.Font.GothamBold
 Autogliter.Text = "Auto Glitter"
-Autogliter.TextColor3 = Color3.new(1, 1, 1)
+Autogliter.TextColor3 = Color3.new(0, 0, 0)
 Autogliter.TextSize = 14
 
 Autococonut.Name = "Autococonut"
 Autococonut.Parent = ExtraPage
-Autococonut.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autococonut.BackgroundColor3 = Color3.new(1, 1, 1)
 Autococonut.BorderSizePixel = 0
 Autococonut.Position = UDim2.new(0.0160000008, 0, 0.140375406, 0)
 Autococonut.Size = UDim2.new(0, 120, 0, 20)
 Autococonut.Font = Enum.Font.GothamBold
 Autococonut.Text = "Auto Coconut"
-Autococonut.TextColor3 = Color3.new(1, 1, 1)
+Autococonut.TextColor3 = Color3.new(0, 0, 0)
 Autococonut.TextSize = 14
 
 Autostinger.Name = "Autostinger"
 Autostinger.Parent = ExtraPage
-Autostinger.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autostinger.BackgroundColor3 = Color3.new(1, 1, 1)
 Autostinger.BorderSizePixel = 0
 Autostinger.Position = UDim2.new(0.261000007, 0, 0.140375406, 0)
 Autostinger.Size = UDim2.new(0, 120, 0, 20)
 Autostinger.Font = Enum.Font.GothamBold
 Autostinger.Text = "Auto Stinger"
-Autostinger.TextColor3 = Color3.new(1, 1, 1)
+Autostinger.TextColor3 = Color3.new(0, 0, 0)
 Autostinger.TextSize = 14
 
 Eqipdemonmask.Name = "Eqipdemonmask"
 Eqipdemonmask.Parent = ExtraPage
-Eqipdemonmask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Eqipdemonmask.BackgroundColor3 = Color3.new(1, 1, 1)
 Eqipdemonmask.BorderSizePixel = 0
 Eqipdemonmask.Position = UDim2.new(0.755999982, 0, 0.180000007, 0)
 Eqipdemonmask.Size = UDim2.new(0, 120, 0, 20)
 Eqipdemonmask.Font = Enum.Font.GothamBold
 Eqipdemonmask.Text = "Equip Diamond Mask"
-Eqipdemonmask.TextColor3 = Color3.new(1, 1, 1)
+Eqipdemonmask.TextColor3 = Color3.new(0, 0, 0)
 Eqipdemonmask.TextScaled = true
 Eqipdemonmask.TextSize = 14
 Eqipdemonmask.TextWrapped = true
 
 Equipdemonmask.Name = "Equipdemonmask"
 Equipdemonmask.Parent = ExtraPage
-Equipdemonmask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Equipdemonmask.BackgroundColor3 = Color3.new(1, 1, 1)
 Equipdemonmask.BorderSizePixel = 0
 Equipdemonmask.Position = UDim2.new(0.510999978, 0, 0.180000007, 0)
 Equipdemonmask.Size = UDim2.new(0, 120, 0, 20)
 Equipdemonmask.Font = Enum.Font.GothamBold
 Equipdemonmask.Text = "Equip Demon Mask"
-Equipdemonmask.TextColor3 = Color3.new(1, 1, 1)
+Equipdemonmask.TextColor3 = Color3.new(0, 0, 0)
 Equipdemonmask.TextScaled = true
 Equipdemonmask.TextSize = 14
 Equipdemonmask.TextWrapped = true
 
 Equipgummymask.Name = "Equipgummymask"
 Equipgummymask.Parent = ExtraPage
-Equipgummymask.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Equipgummymask.BackgroundColor3 = Color3.new(1, 1, 1)
 Equipgummymask.BorderSizePixel = 0
 Equipgummymask.Position = UDim2.new(0.261000007, 0, 0.180000007, 0)
 Equipgummymask.Size = UDim2.new(0, 120, 0, 20)
 Equipgummymask.Font = Enum.Font.GothamBold
 Equipgummymask.Text = "Equip Gummy Mask"
-Equipgummymask.TextColor3 = Color3.new(1, 1, 1)
+Equipgummymask.TextColor3 = Color3.new(0, 0, 0)
 Equipgummymask.TextScaled = true
 Equipgummymask.TextSize = 14
 Equipgummymask.TextWrapped = true
 
 Automagicbean.Name = "Automagicbean"
 Automagicbean.Parent = ExtraPage
-Automagicbean.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Automagicbean.BackgroundColor3 = Color3.new(1, 1, 1)
 Automagicbean.BorderSizePixel = 0
 Automagicbean.Position = UDim2.new(0.0160000008, 0, 0.180000007, 0)
 Automagicbean.Size = UDim2.new(0, 120, 0, 20)
 Automagicbean.Font = Enum.Font.GothamBold
 Automagicbean.Text = "Auto Magic Bean"
-Automagicbean.TextColor3 = Color3.new(1, 1, 1)
+Automagicbean.TextColor3 = Color3.new(0, 0, 0)
 Automagicbean.TextSize = 14
 
 Bringtornado.Name = "Bringtornado"
 Bringtornado.Parent = ExtraPage
-Bringtornado.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Bringtornado.BackgroundColor3 = Color3.new(1, 1, 1)
 Bringtornado.BorderSizePixel = 0
 Bringtornado.Position = UDim2.new(0.755999982, 0, 0.219999999, 0)
 Bringtornado.Size = UDim2.new(0, 120, 0, 20)
 Bringtornado.Font = Enum.Font.GothamBold
 Bringtornado.Text = "Bring Tornado"
-Bringtornado.TextColor3 = Color3.new(1, 1, 1)
+Bringtornado.TextColor3 = Color3.new(0, 0, 0)
 Bringtornado.TextSize = 14
 
 Killstumnail.Name = "Killstumnail"
 Killstumnail.Parent = ExtraPage
-Killstumnail.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Killstumnail.BackgroundColor3 = Color3.new(1, 1, 1)
 Killstumnail.BorderSizePixel = 0
 Killstumnail.Position = UDim2.new(0.510999978, 0, 0.219999999, 0)
 Killstumnail.Size = UDim2.new(0, 120, 0, 20)
 Killstumnail.Font = Enum.Font.GothamBold
 Killstumnail.Text = "Auto Farm Leaves"
-Killstumnail.TextColor3 = Color3.new(1, 1, 1)
+Killstumnail.TextColor3 = Color3.new(0, 0, 0)
 Killstumnail.TextSize = 14
 
 Dropweapon.Name = "Dropweapon"
 Dropweapon.Parent = ExtraPage
-Dropweapon.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Dropweapon.BackgroundColor3 = Color3.new(1, 1, 1)
 Dropweapon.BorderSizePixel = 0
 Dropweapon.Position = UDim2.new(0.261000007, 0, 0.219999999, 0)
 Dropweapon.Size = UDim2.new(0, 120, 0, 20)
 Dropweapon.Font = Enum.Font.GothamBold
 Dropweapon.Text = "Drop Weapon"
-Dropweapon.TextColor3 = Color3.new(1, 1, 1)
+Dropweapon.TextColor3 = Color3.new(0, 0, 0)
 Dropweapon.TextSize = 14
 
 Noclip.Name = "Noclip"
 Noclip.Parent = ExtraPage
-Noclip.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Noclip.BackgroundColor3 = Color3.new(1, 1, 1)
 Noclip.BorderSizePixel = 0
 Noclip.Position = UDim2.new(0.0160000008, 0, 0.219999999, 0)
 Noclip.Size = UDim2.new(0, 120, 0, 20)
 Noclip.Font = Enum.Font.GothamBold
 Noclip.Text = "Noclip"
-Noclip.TextColor3 = Color3.new(1, 1, 1)
+Noclip.TextColor3 = Color3.new(0, 0, 0)
 Noclip.TextSize = 14
 
 AutoDispenser.Name = "AutoDispenser"
 AutoDispenser.Parent = ExtraPage
-AutoDispenser.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+AutoDispenser.BackgroundColor3 = Color3.new(1, 1, 1)
 AutoDispenser.BorderSizePixel = 0
 AutoDispenser.Position = UDim2.new(0.0144905448, 0, 0.261870772, 0)
 AutoDispenser.Size = UDim2.new(0, 120, 0, 20)
 AutoDispenser.Font = Enum.Font.GothamBold
 AutoDispenser.Text = "Auto Dispenser"
-AutoDispenser.TextColor3 = Color3.new(1, 1, 1)
+AutoDispenser.TextColor3 = Color3.new(0, 0, 0)
 AutoDispenser.TextSize = 14
 
 Autotop.Name = "Autotop"
 Autotop.Parent = ExtraPage
-Autotop.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autotop.BackgroundColor3 = Color3.new(1, 1, 1)
 Autotop.BorderSizePixel = 0
 Autotop.Position = UDim2.new(0.259773552, 0, 0.261870772, 0)
 Autotop.Size = UDim2.new(0, 120, 0, 20)
 Autotop.Font = Enum.Font.GothamBold
 Autotop.Text = "Auto Dispenser"
-Autotop.TextColor3 = Color3.new(1, 1, 1)
+Autotop.TextColor3 = Color3.new(0, 0, 0)
 Autotop.TextSize = 14
 
 AutoDispenser_2.Name = "AutoDispenser"
 AutoDispenser_2.Parent = ExtraPage
-AutoDispenser_2.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+AutoDispenser_2.BackgroundColor3 = Color3.new(1, 1, 1)
 AutoDispenser_2.BorderSizePixel = 0
 AutoDispenser_2.Position = UDim2.new(0.259773552, 0, 0.261870772, 0)
 AutoDispenser_2.Size = UDim2.new(0, 120, 0, 20)
 AutoDispenser_2.Font = Enum.Font.GothamBold
 AutoDispenser_2.Text = "Auto Top Booster"
-AutoDispenser_2.TextColor3 = Color3.new(1, 1, 1)
+AutoDispenser_2.TextColor3 = Color3.new(0, 0, 0)
 AutoDispenser_2.TextSize = 14
 
 Autored.Name = "Autored"
 Autored.Parent = ExtraPage
-Autored.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autored.BackgroundColor3 = Color3.new(1, 1, 1)
 Autored.BorderSizePixel = 0
 Autored.Position = UDim2.new(0.510716915, 0, 0.261870772, 0)
 Autored.Size = UDim2.new(0, 120, 0, 20)
 Autored.Font = Enum.Font.GothamBold
 Autored.Text = "Auto Red Booster"
-Autored.TextColor3 = Color3.new(1, 1, 1)
+Autored.TextColor3 = Color3.new(0, 0, 0)
 Autored.TextScaled = true
 Autored.TextSize = 14
 Autored.TextWrapped = true
 
 Autoblue.Name = "Autoblue"
 Autoblue.Parent = ExtraPage
-Autoblue.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Autoblue.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 Autoblue.BorderSizePixel = 0
 Autoblue.Position = UDim2.new(0.755999923, 0, 0.261870772, 0)
 Autoblue.Size = UDim2.new(0, 120, 0, 20)
 Autoblue.Font = Enum.Font.GothamBold
 Autoblue.Text = "Auto Blue Booster"
-Autoblue.TextColor3 = Color3.new(1, 1, 1)
+Autoblue.TextColor3 = Color3.new(0, 0, 0)
 Autoblue.TextScaled = true
 Autoblue.TextSize = 14
 Autoblue.TextWrapped = true
 
 ExtrasButton.Name = "ExtrasButton"
 ExtrasButton.Parent = MainPage
-ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+ExtrasButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 ExtrasButton.BorderSizePixel = 0
 ExtrasButton.Position = UDim2.new(0.538195491, 0, 0.0399999991, 0)
 ExtrasButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
 ExtrasButton.Font = Enum.Font.GothamBold
 ExtrasButton.Text = "Extras"
-ExtrasButton.TextColor3 = Color3.new(1, 1, 1)
+ExtrasButton.TextColor3 = Color3.new(0, 0, 0)
 ExtrasButton.TextSize = 14
 
 FarmingButton.Name = "FarmingButton"
 FarmingButton.Parent = MainPage
-FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+FarmingButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 FarmingButton.BorderSizePixel = 0
 FarmingButton.Position = UDim2.new(0.198195487, 0, 0.0399999991, 0)
 FarmingButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
 FarmingButton.Font = Enum.Font.GothamBold
 FarmingButton.Text = "Farming"
-FarmingButton.TextColor3 = Color3.new(1, 1, 1)
+FarmingButton.TextColor3 = Color3.new(0, 0, 0)
 FarmingButton.TextSize = 14
 
 HomeButton.Name = "HomeButton"
 HomeButton.Parent = MainPage
-HomeButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
+HomeButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 HomeButton.BorderSizePixel = 0
 HomeButton.Position = UDim2.new(0.0281954892, 0, 0.0399999991, 0)
 HomeButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
 HomeButton.Font = Enum.Font.GothamBold
 HomeButton.Text = "Home"
-HomeButton.TextColor3 = Color3.new(1, 1, 1)
+HomeButton.TextColor3 = Color3.new(0, 0, 0)
 HomeButton.TextSize = 14
 
 SettingButton.Name = "SettingButton"
 SettingButton.Parent = MainPage
-SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+SettingButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 SettingButton.BorderSizePixel = 0
 SettingButton.Position = UDim2.new(0.708195508, 0, 0.0399999991, 0)
 SettingButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
 SettingButton.Font = Enum.Font.GothamBold
 SettingButton.Text = "Settings"
-SettingButton.TextColor3 = Color3.new(1, 1, 1)
+SettingButton.TextColor3 = Color3.new(0, 0, 0)
 SettingButton.TextSize = 14
 
 WaypointsButton.Name = "WaypointsButton"
 WaypointsButton.Parent = MainPage
-WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+WaypointsButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 WaypointsButton.BorderSizePixel = 0
 WaypointsButton.Position = UDim2.new(0.368195474, 0, 0.0399999991, 0)
 WaypointsButton.Size = UDim2.new(0.159999996, 0, 0.0869999975, 0)
 WaypointsButton.Font = Enum.Font.GothamBold
 WaypointsButton.Text = "Waypoints"
-WaypointsButton.TextColor3 = Color3.new(1, 1, 1)
+WaypointsButton.TextColor3 = Color3.new(0, 0, 0)
 WaypointsButton.TextSize = 14
 
 SettingPage.Name = "SettingPage"
 SettingPage.Parent = MainPage
-SettingPage.BackgroundColor3 = Color3.new(1, 1, 1)
+SettingPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 SettingPage.BackgroundTransparency = 1
 SettingPage.Position = UDim2.new(-0, 0, 0.127000004, 0)
 SettingPage.Size = UDim2.new(1, 0, 0.787999988, 0)
@@ -1350,37 +1350,37 @@ SettingPage.Visible = false
 
 Antiafk.Name = "Antiafk"
 Antiafk.Parent = SettingPage
-Antiafk.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Antiafk.BackgroundColor3 = Color3.new(1, 1, 1)
 Antiafk.BorderSizePixel = 0
 Antiafk.Position = UDim2.new(0.0264150947, 0, 0.0853963569, 0)
 Antiafk.Size = UDim2.new(0, 98, 0, 20)
 Antiafk.Font = Enum.Font.GothamBold
 Antiafk.Text = "Anti AFK"
-Antiafk.TextColor3 = Color3.new(1, 1, 1)
+Antiafk.TextColor3 = Color3.new(0, 0, 0)
 Antiafk.TextSize = 14
 
 Antiafkbutton.Name = "Antiafkbutton"
 Antiafkbutton.Parent = Antiafk
-Antiafkbutton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+Antiafkbutton.BackgroundColor3 = Color3.new(1, 1, 1)
 Antiafkbutton.BorderSizePixel = 0
 Antiafkbutton.Position = UDim2.new(1.08163261, 0, 0, 0)
 Antiafkbutton.Size = UDim2.new(0, 20, 0, 20)
 Antiafkbutton.Font = Enum.Font.GothamBold
 Antiafkbutton.Text = "X"
-Antiafkbutton.TextColor3 = Color3.new(1, 1, 1)
+Antiafkbutton.TextColor3 = Color3.new(0, 0, 0)
 Antiafkbutton.TextScaled = true
 Antiafkbutton.TextSize = 14
 Antiafkbutton.TextWrapped = true
 
 Close.Name = "Close"
 Close.Parent = MiniPage
-Close.BackgroundColor3 = Color3.new(1, 1, 1)
+Close.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Close.BackgroundTransparency = 1
 Close.Position = UDim2.new(0.00760612637, 0, 0.0016666688, 0)
 Close.Size = UDim2.new(0, 25, 0, 25)
 Close.Font = Enum.Font.GothamBold
 Close.Text = "-"
-Close.TextColor3 = Color3.new(1, 1, 1)
+Close.TextColor3 = Color3.new(0, 0, 0)
 Close.TextSize = 20
 
 DarkCyberLoadingGUI.Name = "[DarkCyber]LoadingGUI"
@@ -1388,44 +1388,44 @@ DarkCyberLoadingGUI.Parent = game.CoreGui
 
 LoadingFrame.Name = "Loading Frame"
 LoadingFrame.Parent = DarkCyberLoadingGUI
-LoadingFrame.BackgroundColor3 = Color3.new(0.321569, 0.462745, 1)
+LoadingFrame.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 LoadingFrame.BorderSizePixel = 0
 LoadingFrame.Position = UDim2.new(0.410933673, 0, 0.416230351, 0)
 LoadingFrame.Size = UDim2.new(0, 342, 0, 127)
 
 Createtitle.Name = "Createtitle"
 Createtitle.Parent = LoadingFrame
-Createtitle.BackgroundColor3 = Color3.new(1, 1, 1)
+Createtitle.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Createtitle.BackgroundTransparency = 1
 Createtitle.Size = UDim2.new(0, 108, 0, 25)
 Createtitle.Font = Enum.Font.GothamBlack
 Createtitle.Text = "Dark Cyber"
-Createtitle.TextColor3 = Color3.new(1, 1, 1)
+Createtitle.TextColor3 = Color3.new(0, 0, 0)
 Createtitle.TextSize = 14
 
 NameTitle.Name = "NameTitle"
 NameTitle.Parent = Createtitle
-NameTitle.BackgroundColor3 = Color3.new(1, 1, 1)
+NameTitle.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 NameTitle.BackgroundTransparency = 1
 NameTitle.Position = UDim2.new(1, 0, 0, 0)
 NameTitle.Size = UDim2.new(0, 233, 0, 25)
 NameTitle.Font = Enum.Font.GothamBold
 NameTitle.Text = "Bee Swarm Simulator"
-NameTitle.TextColor3 = Color3.new(1, 1, 1)
+NameTitle.TextColor3 = Color3.new(0, 0, 0)
 NameTitle.TextSize = 14
 
 Loadingimage.Name = "Loadingimage"
 Loadingimage.Parent = LoadingFrame
-Loadingimage.BackgroundColor3 = Color3.new(1, 1, 1)
+Loadingimage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Loadingimage.BackgroundTransparency = 1
 Loadingimage.BorderSizePixel = 0
 Loadingimage.Position = UDim2.new(0.112938613, 0, 0.29838711, 0)
 Loadingimage.Size = UDim2.new(0, 50, 0, 50)
-Loadingimage.Image = "http://www.roblox.com/asset/?id=3953349579"
+Loadingimage.Image = "https://i.pinimg.com/originals/f4/40/8a/f4408ae59bc76f809d049fcc92cbea80.jpg"
 
 Loadingtext.Name = "Loadingtext"
 Loadingtext.Parent = LoadingFrame
-Loadingtext.BackgroundColor3 = Color3.new(1, 1, 1)
+Loadingtext.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Loadingtext.BackgroundTransparency = 1
 Loadingtext.Position = UDim2.new(0.3004677, 0, 0.307086617, 0)
 Loadingtext.Size = UDim2.new(0, 200, 0, 50)
@@ -1440,7 +1440,7 @@ DarkCyberSynapshitGUI.Parent = game.CoreGui
 
 SynapShitPage.Name = "SynapShitPage"
 SynapShitPage.Parent = DarkCyberSynapshitGUI
-SynapShitPage.BackgroundColor3 = Color3.new(0.321569, 0.462745, 1)
+SynapShitPage.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 SynapShitPage.BorderSizePixel = 0
 SynapShitPage.Position = UDim2.new(0.416354954, 0, 0.417690426, 0)
 SynapShitPage.Size = UDim2.new(0, 267, 0, 134)
@@ -1450,42 +1450,42 @@ local Createtitle2 = Instance.new("TextLabel")
 
 Createtitle2.Name = "Createtitle"
 Createtitle2.Parent = SynapShitPage
-Createtitle2.BackgroundColor3 = Color3.new(1, 1, 1)
+Createtitle2.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Createtitle2.BackgroundTransparency = 1
 Createtitle2.Size = UDim2.new(0, 108, 0, 25)
 Createtitle2.Font = Enum.Font.GothamBlack
 Createtitle2.Text = "Dark Cyber"
-Createtitle2.TextColor3 = Color3.new(1, 1, 1)
+Createtitle2.TextColor3 = Color3.new(0, 0, 0)
 Createtitle2.TextSize = 14
 
 NameTitle2 = Instance.new("TextLabel")
 
 NameTitle2.Name = "NameTitle"
 NameTitle2.Parent = Createtitle2
-NameTitle2.BackgroundColor3 = Color3.new(1, 1, 1)
+NameTitle2.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 NameTitle2.BackgroundTransparency = 1
 NameTitle2.Position = UDim2.new(0.997087002, 0, 0, 0)
 NameTitle2.Size = UDim2.new(0, 159, 0, 25)
 NameTitle2.Font = Enum.Font.GothamBold
 NameTitle2.Text = "Bee Swarm Simulator"
-NameTitle2.TextColor3 = Color3.new(1, 1, 1)
+NameTitle2.TextColor3 = Color3.new(0, 0, 0)
 NameTitle2.TextSize = 14
 
 Welcome.Name = "Welcome"
 Welcome.Parent = SynapShitPage
-Welcome.BackgroundColor3 = Color3.new(1, 1, 1)
+Welcome.BackgroundColor3 = Color3.new(0.95, 0.95, 0.95)
 Welcome.BackgroundTransparency = 1
 Welcome.Position = UDim2.new(0, 0, 0.313432842, 0)
 Welcome.Size = UDim2.new(0, 266, 0, 50)
 Welcome.Font = Enum.Font.GothamBold
 Welcome.Text = "WELCOME TO MY GUI SYNAPSHIT USER"
-Welcome.TextColor3 = Color3.new(1, 1, 1)
+Welcome.TextColor3 = Color3.new(0, 0, 0)
 Welcome.TextSize = 25
 Welcome.TextWrapped = true
 
 -- Scripts:
 local red = Color3.fromRGB(255, 80, 80)
-local blue = Color3.new(211, 211, 211, 0.6)
+local blue = Color3.new(1, 1, 1)
 
 MiniPage.Selectable = true
 MiniPage.Draggable = true 
@@ -1495,58 +1495,58 @@ local repss = 0
 local xoay = 0 
 
 spawn(function()
-for i=1,150 do wait(.05)
+for i=1,150 do wait(.01)
       xoay = xoay - 10
       Loadingimage.Rotation = xoay
 end
 end)
 
-for c=1,10 do wait(.3)
-      Loadingtext.Text = "Loading Place"..string.rep('.',repss%3+1)
+for c=1,10 do wait(.1)
+      Loadingtext.Text = "Generowanie UI"..string.rep('.',repss%1+1)
       repss = repss + 1
 end
 
-Loadingtext.Text = "Loading Place: Success"
+Loadingtext.Text = "Udalo sie zaladowac UI"
 wait(1)
 
 local repss = 0
 
-for d=1,10 do wait(.3)
-      Loadingtext.Text = "Loading UI"..string.rep('.',repss%3+1)
+for d=1,10 do wait(.1)
+      Loadingtext.Text = "Ladowanie UI"..string.rep('.',repss%1+1)
       repss = repss + 1
 end
 
 if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
-Loadingtext.Text = "Loading UI: Success"
+Loadingtext.Text = "Zaladowane"
 if syn then 
 LoadingFrame:TweenPosition(UDim2.new(0.410933673, 0, -0.7, 0)) 
-wait(1)
+wait(0.1)
 DarkCyberLoadingGUI:Destroy()
 SynapShitPage.Visible = true
-wait(2)
+wait(0.1)
 SynapShitPage:TweenPosition(UDim2.new(0.416354954, 0, -0.717690426, 0))
 wait(1)
 DarkCyberSynapshitGUI:Destroy()
-wait(1)
+wait(0.1)
 MiniPage:TweenPosition(UDim2.new(0.361979187, 0, 0.34183538, 0))  --0.361979187, 0, 0.34183538, 0
 else
 LoadingFrame:TweenPosition(UDim2.new(0.410933673, 0, -0.7, 0)) 
-wait(1)
+wait(0.1)
 DarkCyberLoadingGUI:Destroy()
 MiniPage:TweenPosition(UDim2.new(0.361979187, 0, 0.34183538, 0))  --0.361979187, 0, 0.34183538, 0 
 end
 end
 
 Copylinkdiscord.MouseButton1Down:Connect(function()
-setclipboard("discord.gg/GT6uXF2")
+setclipboard("https://www.youtube.com/watch?v=EndqWcuOzF4")
 end)
 
 HomeButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+HomeButton.BackgroundColor3 = Color3.new(0.711, 0.711, 0.711, 0.5)
+FarmingButton.BackgroundColor3 = Color3.new(1, 1, 1)
+WaypointsButton.BackgroundColor3 = Color3.new(1, 1, 1)
+ExtrasButton.BackgroundColor3 = Color3.new(1, 1, 1)
+SettingButton.BackgroundColor3 = Color3.new(1, 1, 1)
 HomePage.Visible = true
 FarmingPage.Visible = false
 WaypointPage.Visible = false
@@ -1555,11 +1555,11 @@ SettingPage.Visible = false
 end)
 
 FarmingButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-FarmingButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+HomeButton.BackgroundColor3 = Color3.new(1, 1, 1)
+FarmingButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
+WaypointsButton.BackgroundColor3 = Color3.new(1, 1, 1)
+ExtrasButton.BackgroundColor3 = Color3.new(1, 1, 1)
+SettingButton.BackgroundColor3 = Color3.new(1, 1, 1)
 HomePage.Visible = false
 FarmingPage.Visible = true
 WaypointPage.Visible = false
@@ -1568,11 +1568,11 @@ SettingPage.Visible = false
 end)
 
 WaypointsButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-WaypointsButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)  
+HomeButton.BackgroundColor3 = Color3.new(1, 1, 1)
+FarmingButton.BackgroundColor3 = Color3.new(1, 1, 1)
+WaypointsButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
+ExtrasButton.BackgroundColor3 = Color3.new(1, 1, 1)
+SettingButton.BackgroundColor3 = Color3.new(1, 1, 1)  
 HomePage.Visible = false
 FarmingPage.Visible = false
 WaypointPage.Visible = true
@@ -1602,11 +1602,11 @@ UserInputService.InputEnded:Connect(onInputEnded)
 
 
 ExtrasButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-ExtrasButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
-SettingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
+HomeButton.BackgroundColor3 = Color3.new(1, 1, 1)
+FarmingButton.BackgroundColor3 = Color3.new(1, 1, 1)
+WaypointsButton.BackgroundColor3 = Color3.new(1, 1, 1)
+ExtrasButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
+SettingButton.BackgroundColor3 = Color3.new(1, 1, 1)
 HomePage.Visible = false
 FarmingPage.Visible = false
 WaypointPage.Visible = false
@@ -1615,11 +1615,11 @@ SettingPage.Visible = false
 end)
 
 SettingButton.MouseButton1Down:Connect(function()
-HomeButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-FarmingButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-WaypointsButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-ExtrasButton.BackgroundColor3 = Color3.new(211, 211, 211, 0.6)
-SettingButton.BackgroundColor3 = Color3.new(0.345098, 0.14902, 1)
+HomeButton.BackgroundColor3 = Color3.new(1, 1, 1)
+FarmingButton.BackgroundColor3 = Color3.new(1, 1, 1)
+WaypointsButton.BackgroundColor3 = Color3.new(1, 1, 1)
+ExtrasButton.BackgroundColor3 = Color3.new(1, 1, 1)
+SettingButton.BackgroundColor3 = Color3.new(0.9, 0.9, 0.9)
 HomePage.Visible = false
 FarmingPage.Visible = false
 WaypointPage.Visible = false
@@ -1710,7 +1710,7 @@ local Waypoints = {
 ["CC6"] = CFrame.new(-270,28,267),
 ["CC7"] = CFrame.new(312,49,189),
 ["CC8"] = CFrame.new(218,5,140),
-["Ant"] = CFrame.new(112,32,477),
+["Ant"] = CFrame.new(288, 81, -63),
 ["CC9"] = CFrame.new(592,7,-46),
 ["CC12"] = CFrame.new(-500,52,458),
 ["CC13"] = CFrame.new(291,28,271),
@@ -1719,7 +1719,8 @@ local Waypoints = {
 ["CC16"] = CFrame.new(218,5,140),
 ["CC17"] = CFrame.new(218,5,140),
 ["CC19"] = CFrame.new(-486,142,410),
-["CC18"] = CFrame.new(218,5,140)
+["CC18"] = CFrame.new(218,5,140),
+["CC20"] = CFrame.new( 147, 182,-227),
 }
 
 local nightbell = false
@@ -1764,7 +1765,7 @@ Demonmasktp.MouseButton1Down:connect(function()
 end)
 Stinger.MouseButton1Down:connect(function()
       local uTorso = workspace:WaitForChild(game.Players.LocalPlayer.Name).HumanoidRootPart
-      uTorso.CFrame = Waypoints["Ant"]
+      uTorso.CFrame = Waypoints["CC20"]
       MainPage.Visible = false 
       Close.Text ="+"
 end)
@@ -2273,12 +2274,6 @@ if item == false then
             local A = {
 
             ["Name"] = "Blue Extract"
-      }
-      local Event = game:GetService("ReplicatedStorage").Events.PlayerActivesCommand
-      Event:FireServer(A)
-      local A = {
-
-            ["Name"] = "Oil"
       }
       local Event = game:GetService("ReplicatedStorage").Events.PlayerActivesCommand
       Event:FireServer(A)
@@ -3334,3 +3329,4 @@ afksnail = false
 Killstumnail.BackgroundColor3 = blue 
 end
 end)
+
