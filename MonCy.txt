@@ -209,7 +209,7 @@ CreditText.BackgroundTransparency = 1
 CreditText.Position = UDim2.new(0.188195452, 0, 0.0601093657, 0)
 CreditText.Size = UDim2.new(0.809829473, 0, 0.382513672, 0)
 CreditText.Font = Enum.Font.GothamBold
-CreditText.Text = "Przerobione przez Moncy"
+CreditText.Text = ""
 CreditText.TextColor3 = Color3.new(0, 0, 0)
 CreditText.TextSize = 20
 
@@ -220,7 +220,7 @@ JoinText.BackgroundTransparency = 1
 JoinText.Position = UDim2.new(0, 0, 0.453551859, 0)
 JoinText.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 JoinText.Font = Enum.Font.GothamBold
-JoinText.Text = "Zoba to"
+JoinText.Text = ""
 JoinText.TextColor3 = Color3.new(0, 0, 0)
 JoinText.TextSize = 17
 
@@ -231,7 +231,7 @@ DiscordlinkTest.BackgroundTransparency = 1
 DiscordlinkTest.Position = UDim2.new(0, 0, 0.601092875, 0)
 DiscordlinkTest.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 DiscordlinkTest.Font = Enum.Font.GothamBold
-DiscordlinkTest.Text = "Kliknij https://www.youtube.com/watch?v=EndqWcuOzF4"
+DiscordlinkTest.Text = ""
 DiscordlinkTest.TextColor3 = Color3.new(0, 0, 0)
 DiscordlinkTest.TextSize = 17
 
@@ -242,7 +242,7 @@ Copylinkdiscord.BorderSizePixel = 0
 Copylinkdiscord.Position = UDim2.new(0.0295858085, 0, 0.79781419, 0)
 Copylinkdiscord.Size = UDim2.new(0.476331353, 0, 0.131147563, 0)
 Copylinkdiscord.Font = Enum.Font.GothamBold
-Copylinkdiscord.Text = "Odpal"
+Copylinkdiscord.Text = ""
 Copylinkdiscord.TextColor3 = Color3.new(0, 0, 0)
 Copylinkdiscord.TextSize = 14
 
